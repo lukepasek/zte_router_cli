@@ -1,0 +1,66 @@
+We need your support to check b2,b5 and b32 controlling by AT commands on original firmware. Like I wrote we cannot test those bands in Poland and we do not have those bands even in our original gui.
+
+Please avoid USB/uart adapter made on CH340 because one generates "bushes" on startup.
+Properly working adapted is made on CP2102 oe PL2303.
+Please connect PC with eg. teratem app via USB/uart cable and try to control modem module by means of AT commands as below:
+
+Examples of AT command sending:
+echo -e -n 'AT+ZNLOCKBAND=1,0,80005,0\r' > /dev/ttyUSB1
+echo -e -n 'AT+ZCAINFO?\r' > /dev/ttyUSB1 && grep -m1 "ZCAINFO:" /dev/ttyUSB1
+echo -e -n 'AT+ZNLOCKBAND?\r' > /dev/ttyUSB1 && grep -m1 "ZNLOCKBAND:" /dev/ttyUSB1
+
+
+Band locking examples:
+AT+ZNLOCKBAND=1,0,1,0 - Band 1
+AT+ZNLOCKBAND=1,0,4,0 - Band 3
+AT+ZNLOCKBAND=1,0,40,0 - Band 7
+AT+ZNLOCKBAND=1,0,80000,0 - Band 20
+AT+ZNLOCKBAND=1,0,41,0 - Band B1 +B7
+AT+ZNLOCKBAND=1,0,45,0 - Band B1 + B3 + B7
+AT+ZNLOCKBAND=1,0,80040,0 Band 7 + 20
+AT+ZNLOCKBAND=1,0,80005,0 Band 20 + 1 +3
+AT+ZNLOCKBAND=1,0,2,0 - Band 2
+AT+ZNLOCKBAND=1,0,10,0 - Band 5
+AT+ZNLOCKBAND=1,0,80000000,0 - Band 32
+AT+ZNLOCKBAND=1,0,20080800C5,0 - All bands, this value is valid for polish bands, for english bands can be different
+you can calculate proper value for eg. b1+b3+b32 by simple sum
+Probably "real" all bands will have:
+AT+ZNLOCKBAND=1,0,20880800D7,0
+
+Other commands for your information
+AT commands for APN setting:
+AT+CGDCONT=1,"IP","internet","",0,0
+AT+CGACT=1,1
+
+aggregation information:
+AT+ZCAINFO? returns state
+
+primary cell information:
+AT+ZCELLINFO? returns state
++ZCELLINFO: 70938895, 307, LTE B20, 6350
+
+Permanent pci/earfcn locking, to remove locking see below:
+AT+ZLOCKCELL=? command syntax help
+AT+ZLOCKCELL:earfcn_tag,pci_tag
+AT+ZLOCKCELL? returns state
+AT+ZLOCKCELL=6350,307 here sets locking to earfcn=6350 and pci=307
+and then AT+CFUN=1,1
+
+Permanent pci/earfcn locking removal:
+AT+ZLOCKCELL=0
+and then modem restart by AT+CFUN=1,1 or router power reboot
+
+locked bands information:
+AT+ZNLOCKBAND? returns state
++ZNLOCKBAND: 80005,2000000680380
+
+uplink aggregation information:
+AT+ZULCA? returns state
+AT+ZULCA=1 enables uplink aggregation
+AT+ZULCA=0 disables upling aggregation
+
+Modem rebooting:
+AT+CFUN=1,1
+
+Modem state:
+AT+CFUN?

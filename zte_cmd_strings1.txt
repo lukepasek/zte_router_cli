@@ -1,0 +1,4208 @@
+/lib/ld-linux.so.3
+abort
+GLIBC_2.4
+libc.so.6
+__libc_start_main
+__gmon_start__
+_init
+_fini
+_Jv_RegisterClasses
+strlen
+__ctype_b_loc
+__ctype_tolower_loc
+fseek
+strncat
+strtoul
+strstr
+memset
+malloc
+free
+strncpy
+memcpy
+__xstat
+open
+libpthread.so.0
+lseek
+read
+fread
+close
+tempnam
+dup2
+fork
+execve
+exit
+puts
+waitpid
+unlink
+zte_syslog_append
+strchr
+strtok
+strcpy
+strcat
+strcmp
+strtol
+write
+strrchr
+rename
+qsort
+strncmp
+zte_nvconfig_read
+dirname
+error
+__errno_location
+shutdown
+recv
+inet_addr
+sendto
+send
+recvfrom
+select
+fcntl
+accept
+inet_ntoa
+socket
+connect
+setsockopt
+gethostbyname
+bind
+listen
+__ctype_toupper_loc
+strcspn
+strspn
+printf
+getsockname
+time
+ctime
+sprintf
+zte_nvconfig_write
+snprintf
+localtime
+raise
+asctime
+sleep
+zte_init_msg
+zte_send_msg
+zte_recv_msg
+zte_reg_proc
+zte_close_client_socket
+zte_cfg_get_item
+zte_tty_redirect_to_null
+signal
+pthread_create
+system
+zte_mem_alloc
+zte_mem_free_ex
+__isoc99_sscanf
+GLIBC_2.7
+zte_syslog_set_mask
+zte_nvconfig_save
+arg_get
+ZTD_GetUsbMacIpAddr
+ZTD_GetUsbPlugState
+fopen
+__isoc99_fscanf
+strcasecmp
+fclose
+getline
+SendMsgToSdk
+zte_mdm_verify_pin_puk_msg
+zte_mdm_pin_mode_msg
+zte_mdm_change_pin_msg
+zte_mdm_net_unlock_msg
+zte_mc_resetSystem
+zte_wlan_reset_basic_settings
+zte_mc_factoryReset
+zte_mc_recover
+zte_mc_backup
+fwrite
+zte_mc_relay_fota_web_oper_cmd
+DM_NotifyIntervalTimefromWebUi
+popen
+fgets
+pclose
+zte_lib_key_poweron_state
+zte_mc_relay_wan_profile_set_default_cmd
+zte_mc_rebootSystem
+set_system_time_l
+restart_ntp
+zte_wlan_set_wifi_config
+sysinfo
+zte_mc_clearProgramming
+zte_redirect_send_msg_with_cmd
+zte_mc_shutdownSystem
+zte_ppp_dial_connect_once_cmd
+zte_ppp_dial_start_auto_connect_cmd
+zte_ppp_dial_discnt_cmd
+zte_lcd_lib_wan_info
+zte_wan_perform_manual_scan
+zte_wan_perform_manual_register
+zte_wan_set_cdma_roaming_preference
+zte_wan_perform_network_select
+zte_dst_clear_data_func
+zte_ppp_dial_set_ca_switch_cmd
+zte_ppp_dial_set_ha_ip_pri_cmd
+zte_ppp_dial_set_ha_ip_sec_cmd
+zte_ppp_dial_set_mip_addr_cmd
+zte_wan_nwinfor_set_cdma_profile_NAI
+zte_wan_nwinfor_set_cdma_profile_ReverseTunneling
+zte_wan_nwinfor_set_cdma_profile_SpiAAA
+zte_wan_nwinfor_set_cdma_profile_SpiHA
+zte_wan_nwinfor_set_cdma_profile_PswdAAA
+zte_wan_nwinfor_set_cdma_profile_PswdHA
+zte_mc_relay_ap_station_set_ap_mode_cmd
+zte_lcd_lib_data_traffic_changed
+zte_wan_send_data_limit_changed_notification
+zte_wan_perform_band_lock
+zte_wan_set_cdma_bc10
+zte_wan_set_lte_switch
+zte_wan_set_lte_ehrpd_switch
+zte_limit_send_cmd
+zte_ppp_dial_set_tmp_ctrl_switch_cmd
+strtoll
+zte_wan_send_calib_month_data
+zte_wan_set_activate_automatic
+zte_send_router_msg
+libzte_sleep_receive_webui_set_time_msg
+feof
+inet_aton
+zte_msg_send
+libzte_router_ip_wildcard_to_iptables_format
+zte_mc_relay_ap_station_router_switch_eth_mode_cmd
+zte_mc_relay_ap_station_send_router_pppoe_disconnet_cmd
+zte_confirm_display_text_stk_mc
+zte_cancel_back_stk_mc
+zte_select_menu_stk_mc
+zte_select_item_stk_mc
+zte_get_input_stk_mc
+zms_client_rescan_serv
+access
+statvfs
+mkdir
+opendir
+readdir
+closedir
+scandir
+alphasort
+sqlite3_open
+sqlite3_errmsg
+sqlite3_close
+sqlite3_exec
+srand
+rand
+zte_mc_pbm_del_all_recs
+zte_mc_pbm_del_multi_recs
+zte_mc_pbm_del_a_rec
+zte_mc_pbm_write_rec
+zte_libpbm_get_rec_data
+zte_libpbm_get_capability
+zte_libwms_set_parameter
+zte_libwms_delete_msg
+zte_libwms_write_msg
+zte_libwms_send_msg
+zte_libwms_modify_tag
+zte_libwms_get_sms_data
+zte_libwms_get_parameter
+zte_libwms_get_cmd_status
+zte_libwms_get_sms_capability
+zte_libwms_get_sms_used
+zte_libwms_get_sms_report
+zte_libussd_cancel
+zte_libussd_send
+zte_libussd_get_to_web_data
+zms_client_set_serv
+ezxml_parse_str_d
+zte_libpbm_get_name_by_number
+DM_ConfirmDownload
+DM_StartUiUpate
+DM_CancelDownload
+DM_ConfirmInstall
+DM_CancelInstall
+DM_StartUpdateProfile
+DM_PressOkInNoProfile
+DM_CancelUpdateProfile
+DM_PressOkInProfileUpdated
+DM_PressOkInProfileFailed
+DM_CancelUpdatePRL
+DM_PressOkInNoPrl
+DM_StartUpdatePRL
+DM_PressOkInPrlUpdated
+DM_PressOkInPrlFailed
+DM_StartUpdateFirmware
+DM_CancelInstallFirmware
+DM_CancelUpdateFirmware
+DM_PostponeInstallFirmware
+DM_PressOkInHfaRetryFail
+DM_PressOkInNoFirmware
+DM_ConfirmInstallFirmware
+DM_StartUiccUnLock
+DM_CancelHfaCidc
+DM_PressOkInHfaCidcEnd
+DM_PressOkInHfaNoPrl
+DM_PressOkInHfaPrlEnd
+DM_CancelHfaCiPrl
+DM_CancelHfaCiFumo
+DM_HfaRetryTimeOut
+DM_PressOkInHfaNoFirmware
+DM_CancelHfaRetry
+DM_HfaContinueTimeOut
+DM_PressOkInNetworkErr
+DM_PressOkInErr67
+ezxml_add_child
+my_strdup
+ezxml_set_txt
+ezxml_set_flag
+ezxml_new
+ezxml_free
+ezxml_toxml
+ezxml_attr
+ezxml_set_attr
+zte_mc_relay_wan_clear_wifi_data_cmd
+_end
+_edata
+__bss_start
+libztestk.so.1
+libztepbm.so.1
+libzteussd.so.1
+libztedlna.so.1
+libztekey.so.1
+libztelcd.so.1
+libzteezxml.so.1
+libztesleep.so.1
+libztentp.so.1
+libzteapn.so.1
+libzterouter.so.1
+libzteSDKnew.so.1
+libztedmapp.so.1
+libztemdm.so.1
+libztewlan.so.1
+libztewms.so.1
+libztesqlite.so.1
+libztelimit.so.1
+libztemem.so.1
+libztewan.so.1
+libzteredirect.so.1
+libztemc.so.1
+libztedst.so.1
+libzteppp.so.1
+libztereg.so.1
+libztesocket.so.1
+libztecfg.so.1
+libztelog.so.1
+libztenv.so.1
+@ #!
+!1C "
+Can't create Ejscript engine
+Can't stat %s
+Can't get memory
+Cant read %s
+language
+=javascript
+<h2><b>ASP Error: %s</b></h2>
+<pre>%s</pre>
+<h2><b>ASP Error</b></h2>
+</body></html>
+Unterminated script in %s:
+write
+B: malloc failed
+?456789:;<=
+ !"#$%&'()*+,-./0123
+String too big
+HTTP/1.0 200 OK
+content-type: text/html
+Execution of cgi process failed
+CGI generated no output
+Can't get memory
+default.c
+download set time again
+Invalid URL
+%s/%s
+Cannot open URL
+Cannot stat page for URL
+HTTP/1.1 200 OK
+Date: %s
+Server: %s/%s
+WebServer-Webs
+2.5.0
+Pragma: no-cache
+Cache-Control: no-cache
+Pragma: no-cache
+Cache-Control: no-store
+Content-length: %d
+Content-type: %s
+Connection: keep-alive
+HTTP/1.0 200 OK
+Date: %s
+Server: %s
+Last-modified: %s
+Content-type: application/octet-stream
+Content-Disposition: attachment; filename
+download set time
+userAgent is null.
+websCheckMobile: User Agent is [%s]
+Mobile
+iPhone
+iPad
+Android
+SAMSUNG
+SonyEricsson
+Nokia
+vivo
+BlackBerry
+J2ME
+Opera Mini
+Opera Mobi
+mobile.html
+index.html
+websCheckDefaultPage: default Page  is [%s]
+Token too big
+Syntax Error
+Invalid Escape Sequence
+Unmatched Quote
+Invalid identifier %s
+else
+return
+ At line %d, line =>
+Bad handle %d
+Bad operator %d
+Bad operator
+Conditional must be numeric
+null
+Undefined variable %s
+Variable already declared
+Undefined procedure %s
+Syntax error
+Cant stat %s
+Cant malloc %d
+Error reading %s
+%s=%s
+DB: Registering database table <%s>
+DB: Deleted row <%d> from table <%s>
+DB: Unable to delete row <%d> from table <%s>
+DB: Adding a row to table <%s>
+DB: Ignoring row set to <%d> in table <%s>
+DB: Setting rows to <%d> in table <%s>
+DB: Unable to find column <%s> in table <%s>
+%s/%s
+DB: About to read data file <%s>
+DB: Failed to stat persistent data file.
+DB: No persistent data file present.
+DB: Persistent data file is empty.
+DB: Persistent data read failed.
+TABLE
+DB: Failed to crack line %s
+DB: About to save database to file
+%s/data.tmp
+WARNING: Failed to open file %s
+WARNING: Failed to write to file %s
+WARNING: Failed to rename %s to %s
+Missing form name
+Form %s is not defined
+HTTP/1.1 200 OK
+Server: %s/%s
+WebServer-Webs
+2.5.0
+Pragma: no-cache
+Cache-control: no-store
+Content-Type: text/html
+<html>
+</html>
+Bad request
+default_parameter
+custom_parameter
+default_nvconfig.txt
+userseting_nvconfig.txt
+ncsi.txt
+Cannot open URL
+loginfo
+qrcode_ssid_wifikey.png
+qrcode_multi_ssid_wifikey.png
+webs: handler %s called websDone, but didn't return 1
+No handler for this URL
+application/java
+.class
+.jar
+text/html
+.asp
+.htm
+.html
+text/xml
+.xml
+image/gif
+.gif
+image/jpeg
+.jpg
+image/png
+.png
+image/vnd.microsoft.icon
+.ico
+text/css
+.css
+text/plain
+.txt
+application/x-javascript
+application/x-shockwave-flash
+.swf
+application/binary
+.exe
+application/compress
+application/gzip
+application/octet-stream
+.bin
+application/oda
+.oda
+application/pdf
+.pdf
+application/postscript
+.eps
+application/rtf
+.rtf
+application/x-bcpio
+.bcpio
+application/x-cpio
+.cpio
+application/x-csh
+.csh
+application/x-dvi
+.dvi
+application/x-gtar
+.gtar
+application/x-hdf
+.hdf
+application/x-latex
+.latex
+application/x-mif
+.mif
+application/x-netcdf
+.cdf
+application/x-ns-proxy-autoconfig
+.pac
+application/x-patch
+.patch
+application/x-sh
+application/x-shar
+.shar
+application/x-sv4cpio
+.sv4cpio
+application/x-sv4crc
+.sv4crc
+application/x-tar
+.tar
+application/x-tgz
+.tgz
+application/x-tcl
+.tcl
+application/x-tex
+.tex
+application/x-texinfo
+.texinfo
+.texi
+application/x-troff
+.roff
+application/x-troff-man
+.man
+application/x-troff-me
+application/x-troff-ms
+application/x-ustar
+.ustar
+application/x-wais-source
+.src
+application/zip
+.zip
+audio/basic
+.au snd
+audio/x-aiff
+.aif
+.aiff
+.aifc
+audio/x-wav
+.wav
+.ram
+image/ief
+.ief
+.jpeg
+.jpe
+image/tiff
+.tiff
+.tif
+image/x-cmu-raster
+.ras
+image/x-portable-anymap
+.pnm
+image/x-portable-bitmap
+.pbm
+image/x-portable-graymap
+.pgm
+image/x-portable-pixmap
+.ppm
+image/x-rgb
+.rgb
+image/x-xbitmap
+.xbm
+image/x-xpixmap
+.xpm
+image/x-xwindowdump
+.xwd
+.cfm
+.shtm
+.shtml
+text/richtext
+.rtx
+text/tab-separated-values
+.tsv
+text/x-setext
+.etx
+video/mpeg
+.mpeg mpg mpe
+video/quicktime
+.mov
+video/x-msvideo
+.avi
+video/x-sgi-movie
+.movie
+(null)
+ringq.c
+Bad serv pointer
+Bad end pointer
+Page Not Found
+Access Denied
+Unknown User
+SEC: Unknown user <%s> attempted to access <%s>
+Access Denied
+Prohibited User
+Access Denied
+Wrong Password
+SEC: Password fail for user <%s>attempt to access <%s>
+Access to this document requires a password
+Access to this document requires a User ID
+Assertion %s, failed at %s %d
+Unknown error
+uemf
+localhost
+*j7a(L#yZ98sSd5HfSgGjMj8;Ss;d)(*&^#@$a2s0i3g
+name
+users
+um.xml
+umconfig.txt
+UM: Writing User Configuration to file <%s>
+UM: Loading User Configuration from file <%s>
+password
+UM: Attempting to change the password for user <%s>
+group
+disable
+prot
+UM: Deleting User <%s>
+groups
+UM: Adding group <%s>
+priv
+method
+UM: Adding User <%s>
+access
+UM: Deleting Group <%s>
+UM: Deleting Access Limit for <%s>
+UM: Adding Access Limit for <%s>
+secure
+<body><h2>
+</h2></body>
+<SELECT NAME="privilege" SIZE="3"
+MULTIPLE TITLE="Choose Privileges">
+<OPTION VALUE="%d">READ
+<OPTION VALUE="%d">EXECUTE
+<OPTION VALUE="%d">ADMINISTRATE
+</SELECT>
+<SELECT NAME="method" SIZE="3" TITLE="Select a Method">
+<OPTION VALUE="%d">FULL ACCESS
+<OPTION VALUE="%d">BASIC ACCESS
+<OPTION VALUE="%d" SELECTED>DIGEST ACCESS
+<OPTION VALUE="%d">NO ACCESS
+Load Cancelled.
+ERROR: Unable to load user configuration.
+User configuration was re-loaded successfully.
+Save Cancelled.
+ERROR: Unable to save user configuration.
+User configuration was saved successfully.
+Delete Access Limit Cancelled
+ERROR: Unable to delete Access Limit for [%s]
+Access Limit for [%s], was successfully deleted.
+group
+method
+secure
+Add Access Limit Cancelled.
+ERROR:  No URL was entered.
+ERROR:  An Access Limit for [%s] already exists.
+Unable to add Access Limit for [%s]
+Access limit for [%s], was successfully added.
+Delete Group Cancelled.
+ERROR: No group was selected.
+ERROR: Group, "%s" is delete-protected.
+ERROR: Group, "%s" is being used.
+ERROR: Unable to delete group, "%s"
+Group, "%s" was successfully deleted.
+enabled
+privilege
+Add Group Cancelled.
+No Group Name was entered.
+ERROR: Group, "%s" already exists.
+Unable to add group, "%s", code: %d
+Group, "%s" was successfully added.
+user
+<body>
+Display User Cancelled
+ERROR: User <b>%s</b> not found.
+<h2>User ID: <b>%s</b></h2>
+<h3>User Group: <b>%s</b></h3>
+<h3>Enabled: <b>%d</b></h3>
+</body>
+Delete User Cancelled
+ERROR: User "%s" not found
+ERROR: User, "%s" is delete-protected.
+ERROR: Unable to delete user, "%s"
+User, "%s" was successfully deleted.
+User already exists.
+Invalid user name.
+Invalid password.
+Invalid or unselected group.
+Error writing user record.
+password
+passconf
+Add User Cancelled
+Confirmation Password did not match.
+Unable to add user, "%s".  %s
+User, "%s" was successfully added.
+<SELECT NAME="url" SIZE="3" TITLE="Select a URL">
+<OPTION VALUE="%s">%s
+<SELECT NAME="user" SIZE="3" TITLE="Select a User">
+<SELECT NAME="group" SIZE="3" TITLE="Select a Group">
+<OPTION VALUE="">[NONE]
+MakeGroupList
+MakeUserList
+MakeAccessLimitList
+MakeAccessMethodList
+MakePrivilegeList
+AddUser
+DeleteUser
+DisplayUser
+AddGroup
+DeleteGroup
+AddAccessLimit
+DeleteAccessLimit
+SaveUserManagement
+LoadUserManagement
+http
+localhost
+http://
+text/plain
+&lt;
+&gt;
+%s:%d
+webs: Listening for HTTP requests at address %s
+webs.c
+Couldn't open a socket on ports %d - %d
+Couldn't open a socket on ports %d - %d
+ __UNDEF__
+webs: websWrite lost data, buffer overflow
+QUERY_STRING
+GATEWAY_INTERFACE
+CGI/1.1
+SERVER_HOST
+SERVER_NAME
+SERVER_URL
+REMOTE_HOST
+REMOTE_ADDR
+PATH_INFO
+SERVER_PORT
+SERVER_ADDR
+%s/%s
+WebServer-Webs
+2.5.0
+SERVER_SOFTWARE
+SERVER_PROTOCOL
+%s %s
+127.0.0.1
+webs: accept request
+PATH_TRANSLATED
+HTTP/1.1 %d %s
+Server: %s/%s
+Date: %s
+WWW-Authenticate: Basic realm="%s"
+WWW-Authenticate: Digest realm="%s", domain="%s",qop="%s", nonce="%s", opaque="%s",algorithm="%s", stale="%s"
+auth
+FALSE
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-store
+Content-Type: text/html
+Location: %s
+<html><head><title>Document Error: %s</title></head>
+		<body><h2>Access Error: %s</h2>
+		<p>%s</p></body></html>
+Insufficient memory
+HTTP_AUTHORIZATION
+HTTP_%s
+user-agent
+Referer
+authorization
+basic
+username
+response
+opaque
+realm
+nonce
+cnonce
+content-length
+CONTENT_LENGTH
+content-type
+CONTENT_TYPE
+cookie
+host
+http://
+HTTP_HOST
+http://%s/%s
+<html><head></head><body>
+		This document has moved to a new <a href="%s">location</a>.
+		Please update your documents to reflect the new location.
+		</body></html>
+product_type
+NO_DRIVER_UFI
+DRIVER_UFI
+FLYING_CAT
+websSetLoginTimemark:ufi to check.
+loginfo
+websSetLoginTimemark: read the nv [loginfo] fail.
+user_login_timemark
+websSetLoginTimemark: read the nv [user_login_timemark] fail.
+user_ip_addr
+timeout
+zte_mgmt_login_timemark_check: the login is timeout .
+websSetLoginTimemark: ip_address is null.
+websSetLoginTimemark: read the nv [user_ip_addr] fail.
+websSetLoginTimemark:do nothing for data card.
+Bad HTTP request
+POST
+HEAD
+Bad request type
+REQUEST_METHOD
+Bad URL format
+cgi-bin
+api/client/post
+UPLOADFILE_RESTORE
+[UPLOAD_RESTOREFILE_REQUEST]:upload restore file request!
+[UPLOAD_RESTOREFILE_REQUEST]:WEBS_POST_REQUEST!
+/var/back_parameter
+api/xmlclient/post
+.asp
+.html
+Bad state
+[UPLOAD_CGI_FILE]:WEBS_CGI_UPLOAD request.
+[UPLOAD_CGI_FILE]:content len[%d] exceed limits.
+[UPLOAD_CGI_FILE]:open file [%s] success.
+[UPLOAD_CGI_FILE]:free g_zte_cgi_buf.
+Referer is 127.0.0.1
+is_Refer_right referer = [%s], host=[%s]
+Data follows
+No Content
+Redirect
+Use local copy
+Page not found
+Unauthorized
+Forbidden
+Site or Page Not Found
+Access Denied
+Web Error
+Not Implemented
+Site Temporarily Unavailable. Try again.
+0123456789abcdef
+%s:%s:%s
+onceuponatimeinparadise
+5ccc069c403ebaf9f0171e9517f40e41
+REQUEST_METHOD
+%s:%s
+%s:%s:%s:%s:%s:%s
+zte_topsw_goahead
+MSG_ID_GOAHEAD
+goahead.c
+[error]create listen socket MSG_ID_GOAHEAD, retrying...
+MSG_ID_DAEMON
+send msg to daemon failed.
+recive daemon msg to start run.
+goahead init_notify ok.
+[zte_topsw_lan,main]reg, soure=[%d],mask1=[%lu],mask2=[%lu],mask3=[%lu],mask4=[%lu]
+zte_topsw_lan,main:zte_reg_proc failed
+[info]cannot read the product type
+ONLY_DATA_CARD
+MODULE
+[info]only_data_card and module cannot need webserver, so just start webserver and not do anything at all!
+NO_DRIVER_UFI
+DRIVER_UFI
+FLYING_CAT
+[info]the product_type is ufi,so need to creat a thread to monitor
+product_type
+-demo
+web_api_version
+umconfig.txt
+wwwdemo
+usr/zte_web/web
+192.168.1.1
+index.html
+/goform
+/cgi-bin
+/mmc2
+/api/xmlclient/post
+/client/backup
+/api/nvramul.cgi
+[main]pthread_create failed.
+modem_main_state
+network_type
+ppp_status
+redirect_flag
+sms_received_flag
+sms_remind
+upgrade_remind
+puknumber
+pinnumber
+pin_status
+sdcard_mode_option
+sd_card_state
+HTTP_SHARE_STATUS
+HTTP_SHARE_CARD_USER
+HTTP_SHARE_WR_AUTH
+HTTP_SHARE_FILE
+Language
+lan_ipaddr_for_current
+matched_language_flag
+psw_fail_num_str
+sim_imsi
+signalbar
+network_provider
+EX_SSID1
+ex_wifi_status
+EX_wifi_profile
+m_ssid_enable
+RadioOff
+simcard_roam
+station_mac
+battery_charging
+battery_vol_percent
+battery_pers
+battery_value
+battery_exist
+loginfo
+login_lock_time
+product_type
+sms_unread_num
+sms_capacity_info
+sms_cmd_status_info
+tinyproxy_enable
+redirect_domain
+keepalive_server_address
+pingchecktime
+dst_data_limitation
+wifi_profile
+wifi_profile1
+wifi_profile2
+wifi_profile3
+wifi_profile4
+wifi_profile5
+wifi_profile_num
+SSID1
+ex_wifi_rssi
+alert_wifi_dfs
+CheckUploadFileStatus
+monthly_rx_bytes
+monthly_tx_bytes
+monthly_time
+date_month
+data_volume_limit_switch
+data_volume_limit_size
+data_volume_limit_unit
+HTTPSHARE_GETCARD_VALUE
+wa_inner_version
+imei
+integrate_version
+web_api_version
+first_into_web
+datausage_balancetolow
+datausage_creditexpired
+datausage_remainamount
+datausage_remaindays
+datausage_lowbalance
+datausage_rechargesiteurl
+datausage_preactive
+datausage_syncresult
+spn_name_data
+spn_b1_flag
+spn_b2_flag
+sta_ip_status
+new_version_state
+mdm_mcc
+mdm_mnc
+msisdn
+goformId
+MODE_SWITCH
+ONLINE_UPGRADE_TOOL
+../zte_web/zte_web_util.c
+[ERROR]zte_goform_process -> unknown goform id:[%s].
+failure
+action
+log_level
+zte_syslog->zte_syslog_set_set_remotelog set  %s.
+enable
+disable
+zte_syslog->zte_syslog_set_remotelog:  invaild action .
+zte_syslog->zte_syslog_set_remotelog:  ip_address is null.
+%s -R %s -l %s
+/usr/zte/zte_conf/scripts/zte_syslog.sh
+%s -L
+[ERROR]zte_syslog->set_remotesyslog:%s.
+zte_syslog->set_remotesyslog:  %s remotesyslog SUCCESS.
+success
+log_path
+log_size
+zte_syslog->zte_syslog_set_locallog set  log_path[%s] .
+zte_syslog->zte_syslog_set_locallog set  log_level[%s] .
+zte_syslog->zte_syslog_set_locallog set  log_size[%s] .
+-o %s
+ -l %s
+-s %s
+%s -L  %s %s %s
+[ERROR]zte_syslog->zte_syslog_set_locallog:%s.
+[SUCCESS]zte_syslog->zte_syslog_set_locallog:  %s.
+zte_syslog->zte_syslog_set_klog set  %s.
+zte_syslog->zte_syslog_set_klog:  Invaild action .
+%s ; %s
+killall -9 klogd
+klogd&
+[ERROR]zte_syslog->zte_syslog_set_klog:%s.
+zte_syslog->zte_syslog_set_klog:  %s klog SUCCESS.
+zte_get_def_home_page: home_page is null.
+invalid len[%d].
+web_home_page
+index.html
+zte_get_def_home_page: home page is [%s].
+product_type
+NO_DRIVER_UFI
+DRIVER_UFI
+FLYING_CAT
+loginfo
+redirect_flag
+ota_user_select
+none
+psw_fail_num_str
+nv_name is NULL.
+zte_wifi_psw_encode_init:read nv [%s] fail.
+wifi_psw_WPAPSK1 is %s.
+zte_write_encode_nvconfig is failed!
+wifi_psw_WPAPSK1_encode is %s.
+%s_encode
+nv_name_encode is %s.
+goform_get_cmd_process
+goform_set_cmd_process
+goform_process
+zte_syscmd_process
+/usr/zte_web/web/version
+get file[%s] stat fail.
+file [%s] size is [%d]
+malloc buf fail.
+open file[%s] fail.
+read file [%s] fail.
+web_version
+WPAPSK1
+m_WPAPSK1
+invalid input para.
+defaultValue
+HTTP/1.0 200 OK
+zte_web_feedback_file: Cannot open URL
+Content-length: %d
+Content-type: application/octet-stream
+Content-Disposition: attachment; filename=%s
+logfile
+syslog
+logpath
+/cache/zte_log
+zte_syslog_process:  Get the  logfile %s/%s.
+syslog.0
+zte_syslog_process->get_log:  Invaild logfile name .
+%s/%s
+[ERROR]zte_syscmd_process : security check failure.
+syscmd
+zte_syscmd_process:syscmd is [%s].
+zte_syslog
+[ERROR]zte_syscmd_process : Invaild command.
+syscall
+syslog_mask
+zte_syslog_process:syscall is [%s].
+get_logfile
+set_remotelog
+set_locallog
+set_klog
+[ERROR]zte_syslog_process : Invaild command.
+syslog_login_status
+%llu
+zte_goform_set_cmd_process -> goformId:[%s].
+zte_goform_whitelist_check: zte_goform_id is null.
+SET_WEB_LANGUAGE
+LOGIN
+LOGOUT
+ENTER_PIN
+ENTER_PUK
+REDIRECT_REDIRECT_OFF
+SET_MATCHED_LANGUAGE_FLAG
+SET_REMIND_FLAG
+DATA_USAGE_NOTIFY_RESET
+SET_DEVICE_MODE
+GOFORM_HTTPSHARE_CHECK_FILE
+HTTPSHARE_ENTERFOLD
+HTTPSHARE_FILE_RENAME
+HTTPSHARE_NEW
+HTTPSHARE_DEL
+LIMIT_SPEED_REDIRECT_URL_CLEAR
+SPEED_RESTRICTION_REDIRECT_SET
+SPEED_RESTRICTION_STATE_SET
+SET_TINYPROXY_SERVER_CONFIG
+ALERT_WIFI_DFS_SET
+zte_goform_whitelist_check: zte_goform_id is OK.
+zte_goform_whitelist_check: zte_goform_id is black.
+[ERROR]zte_goform_blacklist_check -> black goform id:[%s].
+zte_goform_whitelist_check: read the nv [loginfo] fail.
+zte_goform_whitelist_check: ip_address is null.
+user_ip_addr
+[ERROR]zte_goform_whitelist_check -> timemark set error .
+BACKUP_USERSETTINGS
+PARAM_TO_FILE
+BACKUP_USERSETTINGS:websDone.
+multi_data
+zte_goform_get_cmd_process:Get Data is no Safe
+imei
+wa_inner_version
+integrate_version
+modem_main_state
+network_type
+ppp_status
+redirect_flag
+sms_received_flag
+sms_remind
+upgrade_remind
+puknumber
+pinnumber
+pin_status
+sdcard_mode_option
+sd_card_state
+HTTP_SHARE_STATUS
+HTTP_SHARE_CARD_USER
+HTTP_SHARE_WR_AUTH
+HTTP_SHARE_FILE
+Language
+lan_ipaddr_for_current
+matched_language_flag
+psw_fail_num_str
+sim_imsi
+signalbar
+network_provider
+EX_SSID1
+ex_wifi_status
+EX_wifi_profile
+m_ssid_enable
+RadioOff
+simcard_roam
+station_mac
+battery_charging
+battery_vol_percent
+battery_pers
+battery_value
+battery_exist
+loginfo
+login_lock_time
+product_type
+sms_unread_num
+sms_capacity_info
+sms_cmd_status_info
+tinyproxy_enable
+redirect_domain
+keepalive_server_address
+pingchecktime
+dst_data_limitation
+wifi_profile
+wifi_profile1
+wifi_profile2
+wifi_profile3
+wifi_profile4
+wifi_profile5
+wifi_profile_num
+SSID1
+ex_wifi_rssi
+alert_wifi_dfs
+CheckUploadFileStatus
+monthly_rx_bytes
+monthly_tx_bytes
+monthly_time
+date_month
+data_volume_limit_switch
+data_volume_limit_size
+data_volume_limit_unit
+HTTPSHARE_GETCARD_VALUE
+wa_inner_version
+imei
+integrate_version
+web_api_version
+first_into_web
+datausage_balancetolow
+datausage_creditexpired
+datausage_remainamount
+datausage_remaindays
+datausage_lowbalance
+datausage_rechargesiteurl
+datausage_preactive
+datausage_syncresult
+spn_name_data
+spn_b1_flag
+spn_b2_flag
+sta_ip_status
+new_version_state
+mdm_mcc
+mdm_mnc
+msisdn
+%04d/%02d/%02d/%02d/%02d
+"%s":"%s"
+sntp_current_time
+manufacturer_name
+modem_model
+web_version
+network_provider_fullname
+network_provider
+network_type
+current_rat
+str_num_rplmn
+strFullName
+strShortName
+strNumeric
+nRat
+strBearer
+LIMITED_SERVICE
+LIMITED SERVICE
+NO_SERVER
+NO SERVER
+../zte_web/zte_web_get_fw_para.c
+wp is null.
+nv_name is null or empty.
+_flag
+last_login_time
+"login_lock_time":"%d"
+"login_lock_time":"-1"
+HTTP/1.1 200 OK
+Server: %s
+WebServer-Webs
+Pragma: no-cache
+Cache-Control: no-store
+Content-Type: text/html
+flag
+modem_main_state
+pin_status
+pinnumber
+puknumber
+dial_mode
+roam_setting_option
+connectionMode
+autoConnectWhenRoaming
+result
+IPAddress
+MAX_Access_num
+{"sku":"%s","maxConnectedDevices":"%s"}
+dhcpEnabled
+DMZEnable
+dmzEnabled
+SSID1
+WirelessMode
+HideSSID
+Channel
+RadioOff
+EncrypType
+wifiEnabled
+broadcastSsidEnabled
+selectedChannel
+supportedModes
+b,g,b/g,b/g/n
+wifiMode
+ssid
+encrypType
+user_ip_addr
+loginfo
+zte_get_login_status: ip_address is null.
+login_status
+battery_charging
+battery_vol_percent
+batteryStatus
+batteryLevel
+product_name
+wa_inner_version
+hardware_version
+modem_msn
+sim_iccid
+msisdn
+imei
+sim_imsi
+sd_card_state
+sd_card_total_size
+sd_card_used_space
+station_num
+productName,softwareVersion,modemVersion,routerVersion,webUiVersion
+hardwareVersion,serialNumber,simSerialNumber,simMsisdn,deviceImei
+simImsi,simStatus,sdCardAvailable,sdCardTotalMemory,sdCardUsedMemory
+currentConnectedUsers
+maxConnectedUsers
+<%s>%lu</%s>
+timeSinceStartup
+{"productName":"%s","softwareVersion":"%s","modemVersion":"%s","routerVersion":"%s","webUiVersion":"%s","hardwareVersion":"%s","serialNumber":"%s","simSerialNumber":"%s","simMsisdn":"%s","deviceImei":"%s","simImsi":"%s","simStatus":"%s","sdCardAvailable":"%s","sdCardTotalMemory":"%s","sdCardUsedMemory":"%s","currentConnectedUsers":"%s","maxConnectedUsers":"%s","timeSinceStartup":"%lu"}
+cell_id
+lac_code
+cell_rnc_id
+/usr/zte/zte_conf/scripts/getsystemmeminfo.sh
+memory_total
+memory_free
+lifetime_tx_bytes
+lifetime_rx_bytes
+lifetime_time
+lifetime
+ZTD_GetUsbMacIpAddr:fail
+ZTD_GetUsbPlugState:fail
+usb_info
+dm_activated_time
+router_msg get_usb_ip
+usb_ip_addr
+product_type
+NO_DRIVER_UFI
+DRIVER_UFI
+FLYING_CAT
+{"get_loginfo":"%s"}
+zte_get_loginfo: read the nv [loginfo] fail.
+failure
+zte_get_loginfo: ip_address is null.
+duplicate
+get_loginfo
+login_status is null.
+127.0.0.1
+192.168.0.1
+empty
+WPAPSK1_encode
+m_WPAPSK1_encode
+WPAPSK1
+m_WPAPSK1
+cmd is null or empty.
+station_mac_ssid1
+station_mac_ssid2
+m_SSID
+zte_get_ssid_by_mac: mac_addr in null
+zte_get_ssid_by_mac: mac_addr is %s
+zte_get_ssid_by_mac: mac_addr is in SSID1
+zte_get_ssid_by_mac: mac_addr is in SSID2
+zte_get_ssid_by_mac: mac_addr can not find
+zte_get_host_by_mac_from_dhcp_lease: para in null
+zte_get_host_by_mac_from_dhcp_lease: open[%s] failed
+%lu %19s %19s %255s %764s
+station_mac
+{"%s":[]}
+station_list
+/usr/zte/zte_conf/config/dnsmasq.leases
+{"%s":[{"%s":"%s","%s":"%s","%s":"%s","%s":"%s"}
+station_list_add_ssid
+mac_addr
+hostname
+ip_addr
+,{"%s":"%s","%s":"%s","%s":"%s","%s":"%s"}
+{"%s":[{"%s":"%s","%s":"%s","%s":"%s","%s":"%d"}
+ssid_index
+,{"%s":"%s","%s":"%s","%s":"%s","%s":"%d"}
+zte_get_mac_by_ip_from_dhcp_lease: para in null
+zte_get_mac_by_ip_from_dhcp_lease: open[%s] failed
+ip_addr is null.
+MAC addr is empty.
+clientMacAddress
+/proc/uptime
+%49s %49s
+user_conflict_timemark
+check_web_conflict
+system_uptime
+zte_web_abnormal_exit_monitor thread is begin.
+syslog_login_status
+battery_pers
+battery_value
+/etc/inadyn.status
+{"%s":"%s"}
+getddns_status
+RC_IP_INVALID_REMOTE_ADDR
+RC_DYNDNS_RSP_NOTOK
+RC_OK
+RC_REGISTERING
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+../zte_web/zte_management.c
+input para is null.
+pin save,should enter pin.
+pin_code
+pin_save_flag
+invalid pin save flag[%s]
+SSID1
+SSID_name
+old_ssid=%s, ssid=%s
+zte_mgmt_quick_setup_wifibasic: write nv [SSID1] fail.
+HideSSID
+SSID_Broadcast
+old_HideSSID=%s, HideSSID=%s
+zte_mgmt_quick_setup_wifibasic: write nv [HideSSID] fail.
+zte_mgmt_quick_setup:  wifi basic setup success.
+webui_password_display_enable
+web para:[webui_password_display_enable] is [%s].
+zte_mgmt_show_web_pwd: web para:[webui_password_display_enable] is empty string.
+failure
+success
+Language
+web para:[language] is [%s].
+zte_mgmt_set_language: web para:[language] is empty string.
+send msg to touch ui for language fail.
+zte_mgmt_set_language: write the nv [Language] failure.
+name
+value
+web para:[name] is [%s].
+web para:[value] is [%s].
+PinNumber
+web para:[PinNumber] is [%s].
+pin_puk_at_wait
+zte_mgmt_pin_input: web para [PinNumber] is empty.
+modem_main_state
+zte_mgmt_pin_input: [modem_main_state] is [%s].
+modem_waitpin
+PUKNumber
+zte_mgmt_puk_input: web para is empty.
+web para:[PUKNumber] is [%s].
+zte_mgmt_puk_input: [modem_main_state] is [%s].
+modem_waitpuk
+zte_mgmt_pin_enable_or_modify: wp is null.
+OldPinNumber
+NewPinNumber
+web para:[OldPinNumber] is [%s].
+web para:[NewPinNumber] is [%s].
+pin_manage_at_wait
+zte_mgmt_enable_pin: send the msg for enable pin to mc fail.
+pin_manage_result
+zte_mgmt_enable_pin: [pin_manage_result] is [%s].
+zte_mgmt_modify_pin: send the msg for modify pin to mc fail.
+zte_mgmt_modify_pin: [pin_manage_result] is [%s].
+zte_mgmt_disable_pin: web para [OldPinNumber] is empty.
+zte_mgmt_disable_pin: [pin_manage_result] is [%s].
+unlock_network_code
+unlock_code :[%s].
+unlock_code is empty.
+unlock_at_wait
+send unlock network cmd  to mc fail.
+clear_programing
+wifi
+Verizon_Password_Stat
+zte_mgmt_uploadfile_restore: unexpect config file.
+zte_mgmt_uploadfile_restore: call mc recover success.
+zte_mgmt_uploadfile_restore: call mc backup usersetings success.
+back_parameter
+/var/back_parameter
+param
+/usr/zte_web/web/param_web.txt
+unix2dos /usr/zte_web/web/param_web.txt
+param_web.txt
+zte_mgmt_change_password: wp is null.
+oldPassword
+newPassword
+web para:[oldPassword] is [%s].
+web para:[newPassword] is [%s].
+admin_Password
+zte_mgmt_change_password: read the nv [admin_Password] fail.
+zte_mgmt_change_password: [admin_Password] is [%s].
+zte_mgmt_change_password:pass match.
+zte_mgmt_change_password: write the nv [admin_Password] fail.
+zte_mgmt_change_password:pass not match.
+product_type
+NO_DRIVER_UFI
+DRIVER_UFI
+FLYING_CAT
+zte_mgmt_logout:data card no need to logout.
+zte_mgmt_logout:ufi to logout.
+zte_mgmt_logout: wp is null.
+syslog_login_status
+user_ip_addr
+zte_mgmt_logout: write the nv [user_ip_addr] fail.
+loginfo
+zte_mgmt_logout: write the nv [loginfo] fail.
+dm_isautoupdate
+web para:[fota autoupdate] is [%s].
+zte_fota_autoupdate: web para:[autoupdate] is empty string.
+zte_fota_autoupdate: write the nv [autoupdate] success.
+zte_fota_autoupdate: write the nv [autoupdate] failure.
+zte_fota_update_cmd: send msg for update to mc success.
+zte_fota_update_cmd: send msg for update to mc fail.
+dm_nextpollingtime
+dm_pollingcycle
+dm_pollingswitch
+dm_wifiethernetpollingswi
+web para:[dm_nextpollingtime] is [%s].
+web para:[dm_pollingcycle] is [%s].
+web para:[pollingswitch] is [%s].
+web para:[dm_wifiethernetpollingswi] is [%s].
+zte_fota_settings: write the nv [dm_wifiethernetpollingswi] failure.
+zte_fota_settings: write the nv [dm_nextpollingtime] failure.
+zte_fota_settings: write the nv [dm_pollingcycle] failure.
+DM_NotifyIntervalTimefromWebUi(%s)  failure.
+zte_fota_settings: write the nv [dm_pollingswitch] failure.
+zte_fota_settings_cmd: send msg for fota settings to mc success.
+zte_fota_settings_cmd: send msg for fota settings  to mc fail.
+auto_apn_sbm_fota_config
+[info] set sbm fota apn:[%s].
+[error] zte_fota_apn_set: write the nv [fota_apn_config] failure.
+auto_apn_ea_fota_config
+[info] set ea fota apn:[%s].
+[info] end of set fota apn.
+fota_proxy_switch
+[error] invalid web parameter.fotaProxySwitch=[%s].
+[info] sntp web switch set: sntpWebSwitch=[%s].
+dm_serverselect
+[error] invalid web parameter.serverModeSelect=[%s].
+[info] zte_fota_settings_cmd: serverModeSelect=[%s].
+[info] zte_fota_settings_cmd: send msg for fota server settings to mc success.
+[error] zte_fota_settings_cmd: send msg for fota server settings  to mc fail.
+debug_enable
+web para:[debug_enable] is [%s].
+echo %s  > /sys/class/android_usb/android0/debug_enable
+zte_device_set_mode:  system command ERROR.
+zte_device_set_mode:  set mode SUCCESS.
+cat /sys/class/android_usb/android0/debug_enable
+zte_get_device_mode:  get read fp failed.
+{"device_mode":"%s"}
+FACTORY:fail
+switchCmd
+zte_device_mode_switch:[switchCmd] is [%s].
+FACTORY
+zte_device_mode_switch:  system command ERROR.
+zte_goform_mode_switch:  set mode SUCCESS.
+FACTORY:ok
+DEBUG:fail
+TypeCmd
+zte_device_debugmode_switch:[switchCmd] is [%s].
+DEBUG
+zte_device_debugmode_switch:  system command ERROR.
+zte_device_debugmode_switch:  set mode SUCCESS.
+DEBUG:ok
+wp is null.
+usb_mode
+zte_device_usb_mode_switch:[usb_mode] is [%s].
+echo %s > %s
+/sys/class/android_usb/android0/usb_mode
+zte_device_usb_mode_switch:  system command ERROR.
+zte_device_usb_mode_switch:  set usb mode SUCCESS.
+mgmt_crash_mode
+download
+rm -rf /usr/zte/zte_conf/config/crash_reboot.flg
+reboot
+touch /usr/zte/zte_conf/config/crash_reboot.flg
+[error] the input para is invalid.
+screen_show_interval
+zte_screen_lock_set: write the nv [screen_show_interval] failure.
+screen_show_interval: write the nv [screen_closehandle] failure.
+screen_closehandle
+screen_closehandle: write the nv [screen_closehandle] failure.
+screen_brightness
+apn_mode
+auto
+write nv [apn_mode] fail.
+Send msg for set auto apn to mc fail.
+manual
+zte_quick_setup_apn: apn_mode is [%s]
+Current_index
+zte_mgmt_quick_setup:  write the nv [Current_index] failure.
+zte_mgmt_quick_setup:  read the current apn index is [%s ] .
+APN_config%d
+zte_mgmt_quick_setup: write the nv [%s] failure.
+zte_mgmt_quick_setup: Current APN[%s] is [%s].
+zte_mgmt_quick_setup: zte_profile_split failure .
+Profile_Name
+APN_name
+ppp_auth_mode
+ppp_username
+ppp_passwd
+web para:[Profile_Name] is [%s].
+web para:[APN_name] is [%s].
+web para:[ppp_auth_mode] is [%s].
+web para:[ppp_username] is [%s].
+web para:[ppp_passwd] is [%s].
+zte_mgmt_quick_setup:  APN setup success.
+/usr/zte_web/web/description.xml
+upgrade_notice_flag
+write nv %s fail
+upgrade xml not exist
+sms_remind
+upgrade_remind
+redirect_flag
+write nv [sms_remind] fail.
+write nv [upgrade_remind] fail.
+write nv [redirect_flag] fail.
+matched_language_flag
+matched_language_flag is empty.
+write nv [matched_language_flag] fail.
+mgmt_quicken_power_on
+quickenPowerOnFlag is empty.
+write nv [mgmt_quicken_power_on] fail.
+mgmt_redirect_url_when_connected
+mgmt_redirect_url_switch
+mgmt_open_url_for_auto_connect_flag
+write nv [%s] fail.
+mgmt_log_switch
+[error] invalid web ui parameter.
+[info] log switch set: mgmt_log_switch=[%s].
+sntp_current_time
+[info] we don't care sntp_current_time
+[info] manual set ntp time=[%s].
+[error] manual set ntp time failed.
+pma_test_primary_url
+pma_test_secondary_url
+pma_test_change_time
+pma_test_delay_time_min
+pma_test_delay_time_max
+pma_test_balance_time
+model_name
+hardware_version
+pma_plc_version
+[info] zte_pma_test_set: pma_test_primary_url is [%s]
+[info] zte_pma_test_set: pma_test_secondary_url is [%s]
+[info] zte_pma_test_set: pma_test_change_time is [%s]
+[info] zte_pma_test_set: pma_test_delay_time_min is [%s]
+[info] zte_pma_test_set: pma_test_delay_time_max is [%s]
+[info] zte_pma_test_set: pma_test_balance_time is [%s]
+[info] zte_pma_test_set: model_name is [%s]
+[info] zte_pma_test_set: hardware_version is [%s]
+[info] zte_pma_test_set: pma_plc_version is [%s]
+pma_test_mode
+MSG_ID_PMA
+[error] zte_mgmt_pma_test_cmd:  error  to send msg to PMA.
+[info] zte_mgmt_pma_test_cmd: pma_test_mode is [%s].
+[error] zte_mgmt_pma_test_cmd: Invail parameter.
+sntp_web_switch
+[error] invalid web parameter.sntp_web_switch=[%s].
+%[^.]%*s
+zte_nitz_web_ctrl
+[error] invalid web parameter.zte_nitz_web_ctrl=[%s].
+[info] NITZ web switch set: zte_nitz_web_ctrl=[%s].
+pwd of syslog is null
+modem_inner_version
+wa_inner_version is empty.
+syslog_pwd
+syslog_pwd:%s error.
+zte_quick_setup_wifi_sec: enter zte_lan_security_set
+Encryption_Mode_hid
+Encryption_Mode_hid--->security_mode = %s
+security_shared_mode
+security_shared_mode--->encryp_type = %s
+encryp_type == NULL
+OPEN
+SHARED
+AuthMode
+EncrypType
+wep_default_key
+wep_key_1
+wep_key_2
+wep_key_3
+wep_key_4
+WEP1Select
+WEP2Select
+WEP3Select
+WEP4Select
+DefaultKeyID
+Key1Str1
+Key2Str1
+Key3Str1
+Key4Str1
+Key1Type
+Key2Type
+Key3Type
+Key4Type
+NONE
+wifi_au_mode:%s is invalid
+WPAPSK
+WPA2PSK
+WPAPSKWPA2PSK
+WPA_PreShared_Key
+WPA_ENCRYPTION_hid
+WPA_PreShared_Key--->pass_phrase_str = %s
+WPA_ENCRYPTION_hid--->cipher_str = %s
+login2 -> zte_password:%s.
+pass_phrase_str_decode: psw is empty.
+login3 -> zte_psw_admin:%s.
+TKIP
+CCMP
+TKIPCCMP
+WPA or WPA2 encry type is %d
+pass_phrase_str is ASCII
+WPAPSK1_encode
+WPAPSK1
+pass_phrase_str is HEX
+ERROR:pass_phrase_str is not HEX or ASCII
+ERROR:security mode  is invalid
+ERROR:security_mode is NULL
+zte_mgmt_quick_setup:  wifi sec setup success.
+wifi_set_flags
+call zte_quick_setup_apn_ex failure .
+zte_mgmt_quick_setup: zte_quick_setup_wifi_basic failure .
+zte_quick_setup: zte_quick_setup_wifi_sec failure .
+wifi_set_flags:[%u] to [%s].
+RadioOff
+zte_quick_setup_ex: nv [RadioOff] is [%s]
+send wifi set cmd to mc
+wifi set cmd done!
+[zte_quick_setup_ex]wifi status is off:[%s],not send msg to lan
+zte_quick_setup: zte_quick_setup_apn failure .
+user_modify:new_psw_encode:%s
+current_psw or new_psw is NULL
+user_modify:new_psw:%s
+user_modify:new_psw_len:%u
+user_modify:new_psw_admin:%s
+new_psw_len is too long
+Get Data is no Safe:old_pass:%s,new_pass:%s
+password_remind
+zte_mgmt_login_timeout_check: read the nv [loginfo] fail.
+user_login_timemark
+zte_mgmt_login_timeout_check: read the nv [user_login_timemark] fail.
+zte_mgmt_login_timemark_check: the login is timeout .
+timeout
+zte_mgmt_login_timemark_set: write the nv [user_login_timemark] fail.
+zte_mgmt_login: data card no need to login.
+zte_mgmt_login: ufi to login.
+zte_mgmt_login: wp is null.
+lcd_loginfo
+[info] login: LCD is setting.
+password
+zte_mgmt_login: psw is empty.
+zte_mgmt_login: ip_address is null.
+zte_mgmt_login: read the nv [admin_Password] fail.
+save_login
+psw_save
+zte_mgmt_login: error pass.
+last_login_time
+psw_fail_num_str
+zte_mgmt_login:psw:%s
+zte_mgmt_login: psw number use out.
+zte_mgmt_login: login time out, can login.
+lock
+login1 -> zte_password_encode:%s.
+zte_mgmt_login: psw is empty.
+zte_clear_programming:send msg to mc success.
+speed_restriction_redirect
+[error] zte_speed_restriction_redirect_set: Invail parameter.
+zte_speed_restriction_redirect_set: disable the redirect.
+zte_speed_restriction_redirect_set: enable the redirect.
+speed_restriction_state
+[error] speed_restriction_state: Invail parameter.
+limit_speed_redirect_url
+zte_limit_speed_redirect_url_clear: clear the tmp url.
+cfg_tinyproxy
+cfg_serverAddress
+cfg_period
+cfg_redirectLink
+flag
+tinyproxy_enable
+keepalive_server_address
+pingchecktime
+redirect_domain
+need to run /usr/zte/zte_conf/scripts/tinyproxy.sh stop
+sh /usr/zte/zte_conf/scripts/tinyproxy.sh stop
+true
+need to reboot
+wps_display_switch
+[error] zte_form_mgmt_wps_display_switch: Invail parameter.
+zte_form_mgmt_wps_display_switch:send msg to touch ui for language fail.
+apn_index
+Current_index
+ipv6_apn_index
+ipv6_Current_index
+apn_profile_config
+../zte_web/zte_wan.c
+zte_web_profile_delete_param_ex: set apn_profile_config default value 10.
+zte_web_profile_delete_param_ex: current apn_profile_config value is %d.
+zte_web_profile_delete_param_ex:invalid apn index [%u].
+APN_config%u
+apn delete:del last apn.
+apn delete:del last apn fail.
+ipv6_APN_config%u
+ipv6 apn delete:del last apn fail.
+read profile [%s] fail.
+write profile [%s] fail.
+apn delete:read default index fail.
+default index:[%u],index [%u].
+apn delete:invalid apn index [%u].
+EM_Current_index
+EM_APN_config%u
+zte_web_profile_delete_param: set apn_profile_config default value 10.
+zte_web_profile_delete_param: current apn_profile_config value is %d.
+zte_web_profile_set_default_param: set apn_profile_config default value 10.
+zte_web_profile_set_default_param: current apn_profile_config value is %d.
+ input para is null pointer.
+[web server]ERR: zte_web_profile_set_default_param: invalid index:[%u].
+%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s($)%s
+[web server]ERR: zte_web_profile_set_default_param: Save default profile, fail.
+[web server]ERR: zte_web_profile_set_default_param Error: Save default profile index, fail.
+[web server]ERR: zte_web_profile_set_default_param Error: Save Current_index index, fail.
+m_profile_name
+[web server]ERR: zte_web_profile_set_default_param Error: Save profile_name, fail.
+wan_dial
+[web server]ERR: zte_web_profile_set_default_param Error: Save wan_dial, fail.
+wan_apn
+[web server]ERR: zte_web_profile_set_default_param Error: Save Wan_apn, fail.
+apn_select
+[web server]ERR: zte_web_profile_set_default_param Error: Save Apn_select, fail.
+ppp_auth_mode
+[web server]ERR: zte_web_profile_set_default_param Error: Save ppp_auth_mode, fail.
+ppp_username
+[web server]ERR: zte_web_profile_set_default_param Error: Save ppp_username, fail.
+ppp_passwd
+[web server]ERR: zte_web_profile_set_default_param Error: Save ppp_passwd, fail.
+pdp_type
+[web server]ERR: zte_web_profile_set_default_param Error: Save pdp_type, fail.
+pdp_select
+[web server]ERR: zte_web_profile_set_default_param Error: Save pdp_select, fail.
+dns_mode
+[web server]ERR: ZTE_WEBWAN Error: Save dns_mode, fail.
+pdp_addr
+[web server]ERR: zte_web_profile_set_default_param Error: Save pdp_addr, fail.
+prefer_dns_manual
+[web server]ERR: zte_web_profile_set_default_param Error: Save prefer_dns_manual, fail.
+standby_dns_manual
+[web server]ERR: zte_web_profile_set_default_param Error: Save standby_dns_manual, fail.
+pdp_type_roaming
+ipv6_m_profile_name
+ipv6_wan_dial
+ipv6_wan_apn
+ipv6_apn_select
+ipv6_ppp_auth_mode
+ipv6_ppp_username
+ipv6_ppp_passwd
+ipv6_pdp_type
+ipv6_pdp_select
+ipv6_dns_mode
+ipv6_pdp_addr
+ipv6_prefer_dns_manual
+ipv6_standby_dns_manual
+apn_mode
+auto
+Send msg for set auto apn to mc fail.
+zte_web_set_apn_param_ex: set apn_profile_config default value 10.
+zte_web_set_apn_param_ex: current apn_profile_config value is %d.
+($)%s
+zte_web_set_apn_param_ex set  [%s] : %s
+profile_name
+w_standby_dns_manual
+index
+invalid apn para[save].
+invalid index[%u]
+save profile fail.
+call  zte_web_profile_save_param fail.
+set_default_flag
+set_default_flag is empty.
+w_index_str is empty.
+invalid apn para[set default].
+invalid set_default_flag[%s].
+zte_web_profile_save_param: set apn_profile_config default value 10.
+zte_web_profile_save_param: current apn_profile_config value is %d.
+[web server]ERR: uint64_to_str: Invail parameter.
+ppp_status
+zte_wan_connect_network: read the nv [ppp_status] fail.
+failure
+zte_wan_connect_network: ppp_status is [%s].
+ppp_connected
+ipv6_connected
+ipv4_ipv6_connected
+ppp_connecting
+success
+ppp_disconnecting
+dial_mode
+auto_dial
+ppp_disconnected
+zte_wan_auto_connect: send msg for dial to mc success.
+zte_wan_auto_connect: send msg for dial to mc fail.
+zte_wan_auto_connect: the ppp_status already connected.
+zte_wan_auto_connect: the callstate is unknown.
+manual_dial
+zte_wan_manual_connect: send msg for dial to mc success.
+zte_wan_manual_connect: send msg for dial to mc fail.
+zte_wan_manual_connect: the ppp_status already connected.
+zte_wan_manual_connect: the callstate is unknown.
+zte_wan_connect_network: unknown dial_mode.
+zte_wan_disconnect_network: read the nv [ppp_status] fail.
+zte_wan_disconnect_network: ppp_status is [%s].
+zte_wan_disconnect_network: old_dial_mode is [%s].
+zte_wan_auto_disconnect: send the end call cmd to mc success.
+zte_wan_auto_disconnect: send the end call cmd to mc fail.
+zte_wan_auto_disconnect: the ppp_status already disconnected.
+zte_wan_auto_disconnect: the callstate is unknown.
+zte_wan_manual_disconnect:the callstate is connected,then end the call by MANUAL.
+zte_wan_manual_disconnect: send the end call cmd to mc success.
+zte_wan_manual_disconnect: send the end call cmd to mc fail.
+zte_wan_manual_disconnect: the callstate already is disconnected.
+zte_wan_manual_disconnect: the callstate is unknown.
+zte_wan_disconnect_network: unknown dial_mode.
+ConnectionMode
+roam_setting_option
+dial mode is empty.
+write nv [%s] fail.
+dial roam set is empty.
+manual_networkmode
+zte_wan_scan_network:set  manual_networkmode is [%s]
+m_netselect_status
+manual_selecting
+zte_wan_scan_network: send the scan network cmd to mc success.
+zte_wan_scan_network: send the scan network cmd to mc fail.
+zte_wan_set_default_profile: set apn_profile_config default value 10.
+zte_wan_set_default_profile: current apn_profile_config value is %d.
+zte_wan_set_default_profile: input para is null pointer.
+[web server]ERR: zte_wan_set_default_profile: invalid index,which is [%u].
+zte_wan_set_default_profile:the profile_name Str is:[%s]
+zte_wan_set_default_profile:the wan_apn is:[%s]
+zte_wan_set_default_profile:the wan_dial_num Str is:[%s]
+zte_wan_set_default_profile:the apn_select Str is:[%s]
+zte_wan_set_default_profile:the ppp_auth_type Str is:[%s]
+zte_wan_set_default_profile:the ppp_username Str is:[%s]
+zte_wan_set_default_profile:the ppp_passwd Str is:[%s]
+zte_wan_set_default_profile:the pdp_type Str is:[%s]
+zte_wan_set_default_profile:the pdp_select Str is:[%s]
+zte_wan_set_default_profile:the dns_select Str is:[%s]
+zte_wan_set_default_profile:the pdp_addr Str is:[%s]
+zte_wan_set_default_profile:the prefer_dns_manualStr is:[%s]
+zte_wan_set_default_profile:the standby_dns_manual Str is:[%s]
+zte_wan_set_default_profile :the Index value to set default is:[%u]
+APN_config%d
+zte_wan_set_default_profile: prfofile is [%s]
+[web server]ERR: zte_wan_set_default_profile: Save default profile, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save default profile index, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save Current_index index, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save profile_name, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save wan_dial, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save Wan_apn, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save Apn_select, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save ppp_auth_mode, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save ppp_username, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save ppp_passwd, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save pdp_type, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save pdp_select, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save pdp_addr, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save prefer_dns_manual, fail.
+[web server]ERR: zte_wan_set_default_profile Error: Save standby_dns_manual, fail.
+NetworkNumber
+web para:[NetworkNumber] is [%s].
+web para:[Rat] is [%s].
+current_rat
+str_num_rplmn
+zte_wan_set_network: [current_mccmnc] is [%s]. [current_net_type] is [%s].
+zte_wan_set_network: to set network is equal to registered network.
+manual_netsel_flag
+m_netselect_contents
+zte_wan_set_network: send msg for set network to mc success.
+zte_wan_set_network: send msg for set network to mc fail.
+cellular_data_switch
+internal_roam_setting
+domestic_roam_guard
+international_roam_guard
+wan_cdma_roam_mode
+BearerPreference
+web para:[BearerPreference] is [%s].
+zte_wan_network_select: [net_select] is empty string.
+net_select
+zte_wan_network_select: write nv [net_select] fail.
+WCDMA_preferred
+GSM_preferred
+Only_WCDMA
+Only_GSM
+Only_LTE
+Only_GSM_WCDMA
+NETWORK_auto
+WCDMA_AND_GSM
+WCDMA_AND_LTE
+GSM_AND_LTE
+CDMA_AND_EVDO
+LTE_preferred
+CDMA_EVDO_LTE
+zte_wan_network_select: invalid value for [net_select] .
+m_netselect_save
+zte_wan_network_select: write nv [m_netselect_save] fail.
+zte_wan_network_select: write nv [m_netselect_contents] fail.
+zte_wan_network_select: write nv [m_netselect_status] fail.
+zte_wan_network_select: send the msg for set preferred network to mc failure.
+zte_set_roam_option: failure.
+net_select_mode
+web para:[net_select_mode] is [%s].
+zte_wan_set_netselect_mode: [net_select_mode] is empty string.
+auto_select
+zte_wan_set_netselect_mode: write nv [net_select] fail.
+zte_wan_set_netselect_mode: invalid value for [net_select] .
+zte_wan_set_netselect_mode: send the msg  to mc success.
+zte_wan_set_netselect_mode: send the msg  to mc fail.
+web para:[net_select] is [%s].
+zte_wan_set_netselect_to_automatic: [net_select] is empty string.
+zte_wan_set_netselect_to_automatic: write nv [net_select] fail.
+zte_wan_set_netselect_to_automatic: invalid value for [net_select] .
+zte_wan_set_netselect_to_automatic: write nv [m_netselect_save] fail.
+zte_wan_set_netselect_to_automatic: write nv [m_netselect_contents] fail.
+zte_wan_set_netselect_to_automatic: write nv [m_netselect_status] fail.
+zte_wan_set_netselect_to_automatic: send the msg for automatically select network to mc success.
+zte_wan_set_netselect_to_automatic: send the msg for automatically select network to mc fail.
+zte_wan_set_idle_time: wp is null.
+idleTime
+web para:[idleTime] is [%s].
+max_idle_time
+[web server]ERR: zte_wan_set_idle_time: write nv [max_idle_time] fail.
+option
+[info] zte_wan_data_statistics_clear_process: web para option=[%s].
+month
+[info] zte_wan_data_statistics_clear_process: send msg to DST success.
+send MSG to device UI failure.
+[error] zte_wan_data_statistics_clear_process: send msg to mc fail. optionToMc=[%d]
+first_into_web
+zte_data_usage_notify_reset->first_into_web: Invaild parameter .
+[info] zte_data_usage_notify_reset: web para first_into_web=[%s].
+datausage_balancetolow
+zte_data_usage_notify_reset->datausage_balancetolow: Invaild action .
+[info] zte_data_usage_notify_reset: web para datausage_balancetolow=[%s].
+datausage_creditexpired
+zte_data_usage_notify_reset->datausage_creditexpired: Invaild action .
+[info] zte_data_usage_notify_reset: web para datausage_creditexpired=[%s].
+apn_action
+EM_apn_type
+[info] em_apn_mode:[%s], em_apn_action[%s]
+[error] em_apn_mode is empty.
+EM_apn_mode
+[error] Send msg for set auto apn to mc fail.
+manual
+save
+set_default
+delete
+apn delete:invalid index.
+apn delete:index[%u].
+apn delete:call zte_web_profile_delete_param fail.
+[error] invalid EM_apn_action.
+[error] invalid EM_apn_mode.
+ca_switch
+ha_ipaddr_pri
+ha_ipaddr_sec
+wan_cdma_nai
+wan_cdma_reverse_tunnel
+wan_cdma_spi_aaa
+wan_cdma_spi_ha
+wan_cdma_psw_aaa
+wan_cdma_psw_ha
+mobile_ipaddr
+[info] ca_switch:[%s]
+[info] ha_ipaddr_pri:[%s]
+[info] ha_ipaddr_sec:[%s]
+[info] wan_cdma_nai:[%s]
+[info] wan_cdma_reverse_tunnel:[%s]
+[info] wan_cdma_spi_aaa:[%s]
+[info] wan_cdma_spi_ha:[%s]
+[info] wan_cdma_psw_aaa:[%s]
+[info] wan_cdma_psw_ha:[%s]
+[info] mobile_ipaddr:[%s]
+zte_ppp_dial_set_ca_switch_cmd() fail.
+zte_ppp_dial_set_ha_ip_pri_cmd() fail.
+zte_ppp_dial_set_ha_ip_sec_cmd() fail.
+input para is null.
+zte_profile_split: [%s].
+pProfile->pdp_type_roaming:%s
+invalid invalid APN value
+ZTE_WEBWAN: invalid value.
+call zte_web_profile_set_default_param fail.
+apn_mode:[%s],apn_action[%s]
+apn_mode is empty.
+invalid apn_action.
+invalid apn_mode.
+ipv4
+Get Data is no Safe:ivp4
+Get Data is Safe:ivp6
+ipv6
+Get Data is no Safe:ipv6
+Get Data is Safe:ipv6
+Get Data is Safe:no ipv4 or ivp6
+apn_type
+pdp_type :[%s]
+pdp_type_roaming :[%s]
+apn_type :[%s]
+IPv6
+IPv4v6
+unknown pdp_type[%s]
+zte_web_save_prof_func_ex: set  pdp_type IPv4v6 for pdp_type_roaming
+zte_profile_split_v6: [%s].
+set apn_mode to manual fail.
+send the set default profile cmd to mc success.
+send the set default profile cmd to mc fail.
+ipv6_APN_config%d
+set_default_flag:[%s] ,pdp_type :[%s],pidx: [%s]
+[web server]ERR: set apn_mode to manual fail.
+apn delete:call zte_web_profile_delete_param_ex fail.
+roam_option
+ web para:
+[roam_option] is [%s].
+zte_form_roam_setting: write the nv [roam_setting_option] success.
+zte_form_roam_setting: write the nv [roam_setting_option] failure.
+ap_station_mode
+ web para:[ap_station_mode] is [%s].
+dial_pref
+wifi_pref
+ invalid web para.
+zte_ap_station_mode_setting: write the nv [ap_station_mode] success.
+zte_ap_station_mode_send_mc_msg: Invail parameter.
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_3G_PREF to mc success.
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_3G_PREF to mc fail.
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_WIFI_PREF to mc success.
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_WIFI_PREF to mc fail.
+zte_ap_station_mode_setting: write the nv [ap_station_mode] failure.
+wan_auto_clear_flow_data_switch
+data_volume_limit_switch
+set data_volume_limit_switch:[%s]
+data_volume_limit_unit
+data_volume_limit_size
+data_volume_alert_percent
+time
+data
+invalid value for data_limit_type:[%s]
+invalid value :[%s,%s]
+invalid value for data_limit_switch:[%s]
+data_volume_sync_lcd
+set data_volume_sync_lcd:[%s]
+traffic_clear_date
+set traffic_clear_date:[%s]
+notify_deviceui_enable
+[info] quick setup: we don't care the apn set.
+quick setup:apn_mode:[%s]
+call zte_quick_setup_modify_def_apn_ex fail.
+invalid apn_mode:[%s]
+zte_wan_set_lte_band_lock: wp is null.
+lte_band_lock
+web para:[lte_band_lock] is [%s].
+write nv [lte_band_lock] fail.
+%llx
+web para:[lte_band_lock in %llx] is [%llx].
+send msg for set lte band lock to mc fail.
+cdma_band_lock
+write nv [cdma_band_lock] fail.
+send msg for set cdma band lock to mc fail.
+lte_switch
+write nv [turn_off_network] fail.
+eHRPD_switch
+write nv [eHRPD_switch] fail.
+send msg for set eHRPD_switch lock to mc fail.
+[error] modem didn't define FEATURE_ZTE_SBM_DUAL_PROFILE.
+limit_datausage_url_mt
+limit_autopurchase_url_mt
+limit_autopurchase_cancel_url_mt
+limit_cancel_url_mt
+limit_msisdn_mt
+limit_iccid_mt
+enter_maintenance
+[error] zte_limit_send_cmd fail.
+show_usage
+max_data_usage
+tmp_ctrl_switch
+zte_wan_disconnect_network_auto: read the nv [ppp_status] fail.
+zte_wan_disconnect_network_auto: ppp_status is [%s].
+send the end call (auto) cmd to mc success.
+send the end call (auto) cmd to mc fail.
+calibration_way
+webui para is [%s]
+calibration_data_unit
+calibration_time_unit
+zte_flow_calibration_manual calibration_data_unit is [%s]
+zte_flow_calibration_manual calibration_time_unit is [%s]
+webui time_int is [%d]
+WEBUI data_int is [%llu]
+after flow_calib.rx_bytes is [%llu]
+[info] zte_flow_calibration_manual: billing_date is [%s].
+simcard_roam
+network_type
+modem_main_state
+imsi_m_is_program
+zte_wan_set_dial228:ppp_status=[%s]
+zte_wan_set_dial228:simcard_roam=[%s]
+zte_wan_set_dial228:network_type=[%s]
+zte_wan_set_dial228:modem_main_state=[%s]
+zte_wan_set_dial228:imsi_m_is_program=[%s]
+modem_sim_undetected
+zte_wan_dial_228:sim undetected
+{"result":"%d"}
+zte_wan_dial_228:busy status ,cannot to dial 228
+Home
+CDMA
+zte_wan_dial_228: environment ready for dial 228,need user to discon net frist
+zte_wan_set_dial228: busy for dial 228
+zte_wan_set_dial228:doing the action of dial 228
+zte_wan_dial_228: environment not fit for dial 228
+zte_wan_user_chose_dial228 :user chose to dial*228 contiune
+zte_wan_user_chose_dial228:doing the action of dial 228
+zte_wan_user_chose_dial228 :network not connected
+allow_mobile_data_switch
+zte_wan_allow_mobile_data_switch :allow_mobile_data_switch is invaild
+zte_wan_allow_mobile_data_switch :allow_mobile_data_switch is [%s]
+lan_sec_ssid_control
+../zte_web/zte_lan.c
+[info] zte_lan_sec_ssid_control: web para is NULL, so we don't care it.
+[error] zte_lan_sec_ssid_control: lanSecSSIDControl=[%s] is invalid.
+failure
+ssid
+SSID1
+old_ssid=[%s], ssid=[%s]
+Get Data is no Safe:ssid:%s
+zte_wlan_ssid1_basic_set: write nv [SSID1] fail.
+broadcastSsidEnabled
+HideSSID
+old_HideSSID=[%s], HideSSID=[%s]
+zte_wlan_ssid1_basic_set: write nv [HideSSID] fail.
+NoForwarding
+old_NoForwarding=[%s], NoForwarding=[%s]
+zte_wlan_ssid1_basic_set: write nv [NoForwarding] fail.
+MAX_Access_num
+old_MAX_Access_num=[%s], MAX_Access_num=[%s]
+zte_wlan_ssid1_basic_set: write nv [MAX_Access_num] fail.
+zte_wlan_ssid1_basic_set:  wifi basic setup success.
+m_SSID
+old_m_SSID=[%s], m_SSID=[%s]
+zte_wlan_ssid2_basic_set: write nv [m_SSID] fail.
+m_HideSSID
+old_m_HideSSID=[%s], m_HideSSID=[%s]
+zte_wlan_ssid2_basic_set: write nv [m_HideSSID] fail.
+m_NoForwarding
+old_m_NoForwarding=[%s], m_NoForwarding=[%s]
+zte_wlan_ssid1_basic_set: write nv [m_NoForwarding] fail.
+m_MAX_Access_num
+old_m_MAX_Access_num=[%s], m_MAX_Access_num=[%s]
+zte_wlan_ssid2_basic_set: write nv [MAX_Access_num] fail.
+zte_wlan_ssid2_basic_set:  wifi basic setup success.
+TKIP
+CCMP
+TKIPCCMP
+invalid encry type:[%s]
+input para is null.
+m_AuthMode
+security_mode = [%s]
+m_EncrypType
+encryp_type == NULL
+encryp_type = [%s]
+OPEN
+SHARED
+m_DefaultKeyID
+m_Key1Str1
+m_Key2Str1
+m_Key3Str1
+m_Key4Str1
+m_Key1Type
+m_Key2Type
+m_Key3Type
+m_Key4Type
+wifi:[%s][%s] not changed.
+NONE
+wifi:[%s][%s] is invalid.
+WPAPSK
+WPA2PSK
+WPAPSKWPA2PSK
+m_WPAPSK1
+wifi_multi_band_set
+cipher
+m_cipher
+m_WPAPSK1_encode
+pass_phrase_str:%s.
+pass_phrase_str_decode: psw is empty.
+ERROR:security mode  is invalid
+ERROR:security_mode is NULL
+security_mode
+security_shared_mode
+AuthMode
+EncrypType
+DefaultKeyID
+Key1Str1
+Key2Str1
+Key3Str1
+Key4Str1
+Key1Type
+Key2Type
+Key3Type
+Key4Type
+wep_default_key
+wep_key_1
+wep_key_2
+wep_key_3
+wep_key_4
+WEP1Select
+WEP2Select
+WEP3Select
+WEP4Select
+passphrase
+WPAPSK1
+WPAPSK1_encode
+wifi_set_flags is null.
+m_ssid_enable
+apsta_type
+apap
+Do not set wifi max access num, which is set in wlan module.
+write nv [%s] fail.
+wifi_mbss_isolate
+WirelessMode
+RadioOff
+CountryCode
+Channel
+write nv [Channel] fail.
+jpch
+write nv [jpch] fail.
+wifi_band
+write nv [wifi_band] fail.
+HT_MCS
+write nv [HT_MCS] fail.
+wifi_11n_cap
+write nv [wifi_11n_cap] fail.
+wifi_coverage
+write nv [wifi_coverage] fail.
+zte_lan_basic_set_wifi_noservice_flag: wifi_set_flags is null.
+wifi_noservice_flag
+[info] old_wifi_noservice_flag=%s, wifi_noservice_flag=%s
+[error] zte_lan_basic_set_wifi_noservice_flag: write nv [wifi_noservice_flag] fail.
+[info] zte_lan_wifi_coverage_set: web para is NULL, so we don't care it.
+[error] zte_lan_wifi_coverage_set: write [%s] failed.
+dns_redirect_switch
+[info] zte_dns_redirect_switch: web para is NULL, so we don't care it.
+[error] zte_dns_redirect_switch: dns_redirect_switch=[%s] is invalid.
+[info] old_dns_redirect_switch=%s, dns_redirect_switch=%s
+[error] zte_dns_redirect_switch: write nv [dns_redirect_switch] fail.
+wifiEnabled
+wifiMode
+countryCode
+selectedChannel
+abg_rate
+nat_tcp_timer
+nat_udp_timer
+wifi_set_flags
+[info] wifi_set_flags:[%x] to [%s].
+wifi set cmd done!
+success
+enter zte_lan_security_set
+security_mode = %s
+encryp_type = %s
+wifi_au_mode:%s is invalid
+invalid wpa encryp type:[%s]
+pass_phrase_str_decode:%s.
+login3 -> zte_pass_phrase_str:s%.
+wpa pass is ASCII
+wpa pass is HEX
+invalid wpa pass:[%s]
+wifi_set_flags:[%u] to [%s].
+send wifi set cmd to mc
+enter zte_lan_m_security_set
+m_security_mode = %s
+m_encryp_type == NULL
+m_encryp_type = %s
+m_Key1Type1
+m_Key2Type1
+m_Key3Type1
+m_Key4Type1
+wifi_m_au_mode:%s is invalid
+(SSID2) invalid wpa encryp type:[%s]
+(SSID2) wpa pass is ASCII
+(SSID2) wpa pass is HEX
+(SSID2) invalid wpa pass:[%s]
+ERROR:m_security mode  is invalid
+ERROR:m_security_mode is NULL
+ACL_mode
+zte_lan_mac_filter_set:invalid input para.
+invalid value of mac_filter_mode [%s].
+wifi_mac_white_list
+nick_name_white_list
+wifi_mac_black_list
+wifi acl set:send msg to lan success.
+wifi_driver_reload_flag
+waiting
+wps_mode
+WPS_SSID
+wifi_wps_index
+zte_lan_wps_set:invalid input para.
+ wps_mode is [%s]
+ WPS_SSID is [%s]
+WscModeOption
+zte_lan_wps_set:invalid operate, wps in processing..
+zte_lan_wps_set:set  wifi_wps_index is [%s]
+zte_lan_wps_set: invalid wifi_wps_index is [%s]
+wps_pin
+Get Data is no Safe:wps_pin:%s
+invalid wps_mode[%s].
+wps_start_time
+wifi wps set:send msg to lan success.
+"wps_start_time":"%d"
+"wps_start_time":"-1"
+station wifi wps get pin:send msg to lan success.
+[error] wifi station wps get pin:send msg to mc success, but wifi module failed.
+STAPIN
+STAPBC
+[error] station wps mode set: invalid wps_mode=[%s].
+[error] station wps mode set: wps is processing.
+station wifi wps mode set:send msg to lan success.
+EX_SSID1
+EX_AuthMode
+EX_EncrypType
+EX_DefaultKeyID
+EX_WEPKEY
+EX_WPAPSK1
+EX_wifi_profile
+zte_wlan_set_sta_con web para:
+[EX_SSID1] is [%s].
+[EX_AuthMode] is [%s].
+[EX_EncrypType] is [%s].
+[EX_DefaultKeyID] is [%s].
+[EX_WEPKEY] is [%s].
+[EX_WPAPSK1] is [%s].
+[EX_wifi_profile] is [%s].
+zte_wlan_set_sta_con: write the nv [EX_SSID1] failure.
+zte_wlan_set_sta_con: write the nv [EX_AuthMode] failure.
+zte_wlan_set_sta_con: write the nv [EX_EncrypType] failure.
+zte_wlan_set_sta_con: write the nv [EX_DefaultKeyID] failure.
+zte_wlan_set_sta_con: write the nv [EX_WEPKEY] failure.
+zte_wlan_set_sta_con: write the nv [EX_WPAPSK1] failure.
+zte_wlan_set_sta_con: write the nv [EX_wifi_profile] failure.
+wifi staiton connect:send msg to lan success.
+wifi station disconnect:send msg to lan success.
+wifi set sta refresh:send msg to lan success.
+scan_finish
+zte_wlan_apsta_set web para:
+[apsta_type] is [%s].
+zte_wlan_apsta_set: write the nv [apsta_type] failure.
+wifi wlan apsta set:send msg to lan success.
+sysIdleTimeToSleep
+ web para:[sysIdleTimeToSleep] is [%s].
+zte_wlan_set_sleep: write the nv [sysIdleTimeToSleep] failure.
+wispr_name
+wispr_pwd
+wifi_sbmspot_enable
+ web para:
+[wispr_name] is [%s].
+[wispr_pwd] is [%s].
+ [wifi_sbmspot_enable] is [%s].
+wispr_name: write the nv [sysIdleTimeToSleep] failure.
+zte_wlan_set_wispr: write the nv [wispr_pwd] failure.
+zte_wlan_set_wispr: write the nv [wifi_sbmspot_enable] failure.
+wifi set wispr:send msg to lan success.
+%[^,]
+sscanf failed.
+Input null.
+wifi_update_profile
+action
+delete
+modify
+operate_action is not [delete] or [modify].
+ zte_wlan_parse_spot_profile: parse failed.
+ [profile_name] is [%s].
+ex_wifi_status
+connecting
+spot_connecting
+ [errInfo] is [%s].
+connect
+spot_connected
+wifi_profile
+wifi_profile1
+wifi_profile2
+wifi_profile3
+wifi_profile4
+wifi_profile5
+wifi_profile_num
+wisprFlag
+ web para:
+[wifi_profile] is [%s].
+ [wifi_profile1] is [%s].
+ [wifi_profile2] is [%s].
+ [wifi_profile3] is [%s].
+ [wifi_profile4] is [%s].
+ [wifi_profile5] is [%s].
+ [wifi_profile_num] is [%s].
+zte_wlan_spot_profile_update: write the nv [wifi_profile] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile1] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile2] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile3] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile4] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile5] failure.
+zte_wlan_spot_profile_update: write the nv [wifi_profile_num] failure.
+zte_wlan_spot_profile_update:update success for wispr set.
+zte_wlan_ssid1_set: zte_quick_setup_wifi_basic failure .
+call zte_lan_ssid1_security_set failure .
+zte_wlan_ssid1_set: wifi_set_flags [%u] to [%s].
+system sh /usr/zte/zte_conf/scripts/zte_qrcode_create.sh wifi_create
+sh /usr/zte/zte_conf/scripts/zte_qrcode_create.sh wifi_create
+zte_wlan_ssid2_set: zte_wlan_ssid2_basic_set failure .
+call zte_lan_ssid2_security_set fail.
+zte_wlan_ssid2_set: wifi_set_flags [%u] to [%s].
+sh /usr/zte/zte_conf/scripts/zte_qrcode_create.sh multi_wifi_create
+wifi_random_password_enable
+wifi_sta_connection
+zte_wlan_sta_connection :[wifi_sta_connection] is [%s].
+apsta
+zte_wlan_sta_connection: write the nv [wifi_sta_connection] failure.
+wifi sta connection:send msg to lan success.
+zte_ap_station_mode_send_mc_msg: Invail parameter.
+dial_pref
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_3G_PREF to mc fail.
+wifi_pref
+zte_ap_station_mode_setting: send ZTE_MC_AUTO_MODE_WIFI_PREF to mc fail.
+zte_wlan_sta_control: write the nv [wifi_set_flags] failure.
+wifi sta switch set:send msg to lan success.
+ap_station_mode
+eth_plug_out_search_mode
+[info] set eth_plug_out_search_mode=[%s].
+ap_station_mode. orig=[%s], new=[%s]
+wifi_sta_connection. orig=[%s], new=[%s]
+zte_wlan_sta_control: write the nv [ap_station_mode] failure.
+zte_wlan_sta_control: connect mode set failure.
+m_ssid_enable is null.
+[info]: wifi_sta_connection=[%s].
+zte_lan_user_mac_get: ip_address is null.
+/usr/zte/zte_conf/config/dnsmasq.leases
+zte_lan_user_mac_get :Cannot open file dnsmasq.leases.
+%s %s %s %s %s
+{"user_mac_addr":"%s"}
+zte_lan_user_mac_get: error, can not find the match mac address.
+{"user_mac_addr":"error"}
+Write nv wifi_coverage fail.
+wifi set wifi coverage:send msg to lan success.
+m_band_enable
+m_WirelessMode
+m_CountryCode
+m_Channel
+write nv [m_Channel] fail.
+m_wifi_band
+write nv [m_wifi_band] fail.
+m_wifi_11n_cap
+write nv [m_wifi_11n_cap] fail.
+display_ssid_password_enable
+zte_wlan_ssid_lcddisplay_set web para:[display_ssid_password_enable] is [%s].
+[error] zte_wlan_ssid_display_set: Invail parameter.
+zte_wlan_ssid_lcddisplay_set: write the nv [display_ssid_password_enable] failure.
+zte_lan_set_m_ssid_enable set multi ssid failed
+zte_lan_set_mbss_isolate set multi ssid isolate failed
+zte_wlan_multi_band_set set wifi_band failed
+zte_wlan_multi_band_set set m_wifi_band failed
+display_ssid_on_touchUI
+display_wifi_pwd_on_touchUI
+wifi_mwr_eap_start_timer
+zte_eapsim_timeout_set: Invail parameter.
+old_wifi_mwr_eap_start_timer=%s, wifi_mwr_eap_start_timer=%s
+zte_eapsim_timeout_set: write nv [wifi_mwr_eap_start_timer] fail.
+wifi_mwr_eap_timeout
+old_wifi_mwr_eap_timeoutr=%s, wifi_mwr_eap_timeout=%s
+zte_eapsim_timeout_set: write nv [wifi_mwr_eap_timeout] fail.
+wifi_mwr_eapol_start_timer
+old_wifi_mwr_eapol_start_timer=%s, wifi_mwr_eapol_start_timer=%s
+zte_eapsim_timeout_set: write nv [wifi_mwr_eapol_start_timer] fail.
+[zte-eap-sim]: zte_eapsim_set_timer: timer nvconfig have been set. Do not send cmd to wlan.
+wifi_pseudonym_identity
+zte_eapsim_timeout_set: write nv [wifi_pseudonym_identity] fail.
+wifi_fast_reauthentication_identity
+zte_eapsim_timeout_set: write nv [wifi_fast_reauthentication_identity] fail.
+[zte-eap-sim]: zte_eapsim_id_del: send cmd
+[zte-eap-sim]: zte_eapsim_id_refresh: send cmd
+alert_wifi_dfs
+zte_wlan_set_alert_wifi_dfs:alert_wifi_dfs is [%s].
+auto_power_save
+wifi set auto_power_save have done!
+zte_wlan_set_max_access_num: write nv [MAX_Access_num] fail.
+zte_wlan_set_max_access_num:  wifi set max access num  success.
+../zte_web/zte_router.c
+[web server]ERR: zte_router_read_nv:  Input Date is NULL
+[web server]ERR: zte_router.c: zte_router_read_nv() nv item len larger then buf len
+delete_id
+delete_id is [%s].
+IPPortFilterRules_%d
+delete_id_v6
+IPPortFilterRulesv6_%d
+None
+ICMP
+TCP&UDP
+invalid protocol name:[%s]
+Accept
+Drop
+invalid fw action:[%s]
+comment len [%d] more than max len [%d].
+fw comment include invalid chars.
+[web server]ERR: isIpValid: NULL str
+any/0
+isIpValid(): %s is not a valid IP address.
+[error] input para is NULL.
+opms_manual_ip
+opms_manual_mask
+opms_manual_gateway
+opms_manual_dns_p
+opms_manual_dns_s
+[info] opms_manual_ip is [%s].
+[info] opms_manual_mask is [%s].
+[info] opms_manual_gateway is [%s].
+[info] opms_manual_dns_p is [%s].
+[info] opms_manual_dns_s is [%s].
+[error] ipaddr is invalid.
+[error] invalid ipaddr.
+opms_ip_acquire
+manual
+[web server]ERR: zte_goahead_msg_to_router: data too long, return!
+[web server]ERR: zte_goahead_msg_to_router: Msg cmd is >= MSG_CMD_SERVICE_REG, return!
+[web server]ERR: zte_goahead_msg_to_router: zte_msg_send err!
+[web server]ERR: isMacValid: NULL str
+sip_address
+sip_address2
+sFromPort
+sToPort
+dip_address
+dip_address2
+dFromPort
+dToPort
+mac_address
+protocol
+action
+comment
+operation
+modify_index
+modify
+IPPortFilterRules_%s
+%s,%s,%d,%d,%s,%s,%d,%d,%d,%d,%s,%s
+success
+failure
+[web server]ERR: isNumOnly: str in is NULL
+isIpNetmaskValid(): %s is not a valid IP address.
+PortForwardEnable
+ipAddress
+portStart
+portEnd
+[info] we don't care PortForwardEnable.
+[info] web PortForwardEnable=[%s].
+[info] detail forward para don't need set.
+[info] no valid para need to set.
+PortForwardRules_%d
+%s,%d,%d,%d,%s
+exceed the maximum rules.
+portMapEnabled
+fromPort
+ip_address
+toPort
+PortMapEnable
+PortMapRules_%s
+PortMapRules_%d
+portFilterEnabled
+defaultFirewallPolicy
+IPPortFilterEnable
+DefaultFirewallPolicy
+lanIp
+lanNetmask
+lanDhcpType
+SERVER
+dhcpStart
+dhcpEnd
+dhcpLease
+dhcp_reboot_flag
+manual_lan_dns_enable
+manual_lan_dns_1st
+manual_lan_dns_2nd
+vpn_passthr_Enabled
+Get Data is no Safe:lanIp:%s
+Get Data is no Safe:manual_lan_dns_1st:%s,manual_lan_dns_2nd:%s
+lan_ipaddr
+lan_netmask
+dhcpEnabled
+dhcpLease_hour
+DISABLE
+wan_ipaddr
+upnp_setting_option
+upnpEnabled
+wifi_set_flags
+[info] wifi_set_flags:[%x] to [%s].
+wifi set cmd done!
+DMZEnabled
+DMZIPAddress
+DMZEnable
+1500
+tcp_mss
+1460
+zte_fw_mtu_setting:The mtu is null
+zte_fw_mtu_setting:The tcp_mss is null
+zte_fw_mtu_setting:write the mtu failure
+zte_fw_mtu_setting:write the tcp_mss failure
+sta_static_ip_ssid
+sta_static_ip_enabled
+sta_static_ip_addr
+sta_static_ip_mask
+sta_static_ip_gw
+sta_static_ip_dns1
+sta_static_ip_dns2
+zte_station_static_ip_set: web para:
+[sta_static_ip_ssid] is [%s].
+[sta_static_ip_enabled] is [%s].
+[sta_static_ip_addr] is [%s].
+[sta_static_ip_mask] is [%s].
+[sta_static_ip_gw] is [%s].
+[sta_static_ip_dns1] is [%s].
+[sta_static_ip_dns2] is [%s].
+zte_station_static_ip_set: send MSG_ID_ROUTER  success.
+zte_station_static_ip_set: send MSG_ID_ROUTER  failure.
+ip_version
+ip_version:[%s]
+ipv4
+ipv6
+unknown ip_version:[%s]
+opms_work_mode
+[info] we don't care opms_work_mode.
+[info] opms_work_mode is [%s].
+[info] we don't care opms_ip_acquire.
+[info] opms_ip_acquire is [%s].
+auto
+[error] opms ipaddr manual set failed.
+[error] ip acquire mode is error..
+[error] set ip acquire mode failed.
+[info] send msg to mc.
+[error] send msg to mc error.
+pppoe
+[error] invalid opms_ip_acquire=[%s].
+action_link
+connect
+pppoe_username
+pppoe_password
+pppoe_psw_save
+pppoe_dial_mode
+[info] pppoe_username is [%s].
+[info] pppoe_password is [%s].
+[info] pppoe_psw_save is [%s].
+[info] pppoe_dial_mode is [%s].
+[error] pppoe connect: send msg to mc error.
+[error] pppoe connect failed.
+disconnect
+[error] pppoe disconnect failed.
+[error] invalid pppoe connect action=[%s].
+RemoteManagement
+WANPingFilter
+[error] fw system security: RemoteManagement=[%s] is invalid.
+[error] fw system security: WANPingFilter=[%s] is invalid.
+lan_sec_ssid_control
+zte_alter_hostname_from_lan_wireless_blackList   hostname_mac=[%s]
+zte_alter_hostname_from_lan_wireless_blackList  is FAILURE ,beacuse  str too long!!!
+edit_num = [%d] count = [%d]
+%s+%s
+[zte_alter_hostname_from_lan_wireless_blackList] nnn=[%d] nv_hostname_mac=[%s]
+[nv_index]1 =[%s]
+web_wifimac_hostname_save
+web_wifimac_hostname_save2
+%s+%s;
+[zte_alter_hostname_from_lan_wireless_blackList]  hostname_mac=[%s]
+[nv_index]2 =[%s]
+hostname
+web_wifimac_hostname_save3
+web_wifimac_hostname_save4
+{"%s":[]}
+devices
+{"%s":[
+{"%s":"%s",
+{"%s":"--",
+"%s":"%s"}
+"%s":"--"}
+DDNS_Enable
+DDNS_Mode
+DDNSProvider
+none
+DDNS
+DDNS_Hash_Value
+DDNSAccount
+DDNSPassword
+zte_set_ddns send msg to router module
+wan0
+../zte_web/zte_web_stk.c
+wp is null.
+operator
+stk_menu
+item_no
+STK selected item no is empty.
+failure
+stk_write_flag
+write nv [%s] fail.
+success
+stk_menu_item
+stk_exit
+stk_back
+stk_get_input
+stk_content
+stk_encode_type
+invalid request para.
+stk_text
+stk_first_text
+invalid stk operation[%s]
+{"result":
+{"fileInfo":[
+{"result":"%s", "ip":"%s"}
+touch -cm -d '2012-08-08 08:08:08' "%s"
+touch -cm -d '%s' "%s"
+../zte_web/zte_httpshare_process.c
+zte_change_file_time cmd = %s
+zte_httpshare_YmrToUnix time[0] = %d
+/usr/zte/zte_conf/httpshare_ls.info
+zte_httpshare_listfile_info read [%s] fail...
+Size:
+file_size=%s
+Access: (0755/
+document
+file
+Modify:
+zte_httpshare_listfile_info lastUpdateTime %s
+{"fileName":"%s","attribute":"%s","size":"%s","lastUpdateTime":"%s"}
+,{"fileName":"%s","attribute":"%s","size":"%s","lastUpdateTime":"%s"}
+zte_httpshare_call_system: NULL-------------------------------
+zte_httpshare_call_system: [%s]
+zte_del_file  null
+rm -rf '%s'
+sdcard_mode_option
+umount %s
+/mmc2
+ztemount mounttcard
+ztemount unmounttcard
+mount -t vfat %s %s -o shortname=mixed,utf8
+/dev/mmcblk0p1
+mount fail, will try!
+/dev/mmcblk0
+/mmc2/mmc2/mmc2
+/mmc2/mmc2/mmc2 exist SD card may be exFAT format
+SD card size less than 48M, may be eFAT format,will change to usb
+file path null
+zte_check_file_exist path=%s  (file not exist)
+path is null
+create new folder %s
+create new folder  failed
+change to %d mode
+change to %d mode faile
+ln -s %s %s
+/usr/zte_web/web/mmc2
+sd_card_total_size
+sd_card_avi_space
+{"sd_card_total_size":"%s","sd_card_avi_space":"%s"}
+{"result":"%s","reason":"%s"}
+===update_sd_card_used_space_size total size abnormal >1024G !!!!===
+===update_sd_card_used_space_size b_used size abnormal >1024G !!!!===
+===update_sd_card_used_space_size sdcard size abnormal : total_size<b_used !!!!===
+HTTP_SHARE_STATUS
+Enabled
+sd_card_state
+ sdcard no exist
+ sdcard state error
+{"sd_card_name":"%s"}
+MicroSD Card
+HTTP_SHARE_WR_AUTH
+HTTP_SHARE_FILE
+{"HTTP_SHARE_WR_AUTH":"%s","HTTP_SHARE_FILE":"%s"}
+zte_write_file_record_to_web dir == NULL
+],"totalRecord":"%d"}}
+list file memory fail!
+%s/%s
+zte_write_file_record_to_web stat < 0
+{"fileName":"%s","attribute":"%s","size":"%d","lastUpdateTime":"%s"}
+,{"fileName":"%s","attribute":"%s","size":"%d","lastUpdateTime":"%s"}
+zte_write_file_record_to_web close the dir failure
+zte_httpshare_listfile_create cmd malloc fail
+stat %s > %s
+zte_httpshare_listfile_info create file fail
+zte_write_filerecord_alphasort scandir error,n=%d
+zte_write_filerecord_alphasort stat < 0
+zte_httpShare_enter scandir n=%d.
+zte_write_filerecord_alphasort stat file [%s] < 0
+zte_httpshare_db_open:invalide inputs.
+/usr/zte/zte_conf/zte_db/httpshare_db/httpshare.db
+zte_httpshare:can not open db,sqlite3_errmsg:%s.
+zte_httpshare_db_close:invalide inputs.
+zte_httpshare_db_close:can not close db
+zte_httpshare_db_exec_sql:invalide inputs.
+zte_httpshare_db_exec_sql:open httpshare.db failed.
+zte_httpshare_db_exec_sql:can not exec sql,sqlite3_errmsg:%s.
+para null
+insert into %s (ip,path) values ('%s','%s')
+httpshare
+zte_httpshare_insert_path_to_db result  %d
+select id from %s where ip = '%s'
+zte_httpshare_check_record result %d
+update %s set path ='%s'  where ip = '%s'
+update record result %d
+select path from %s where ip = '%s'
+no_sdcad
+path_SD_CARD
+zte_httpShare_checkFold %s path = %s
+zte_httpShare_checkFold dir == NULL
+zte_httpShare_checkFold file memory fail!
+failure
+zte_httpShare_checkFold stat < 0
+{"fileName":"%s"}
+,{"fileName":"%s"}
+zte_httpShare_checkFold close the dir failure
+zte_httpShare_checkFold end
+user_ip_addr
+readWrite
+exist
+noexist
+[zte_change_file_time]path_source have invalid data.
+[zte_change_file_time]new_time have invalid data.
+Disabled
+del all share file fail, share is closed
+rm -rf /mmc2/.*
+rm -rf /mmc2/*
+rm -rf %s/%s
+del all share file cmd[%s]
+=zte_httpShare_del_all fail
+sync
+delete all completed
+success
+mode_set
+http_share_mode
+dest_path_SD_CARD
+HTTP_SHARE_MOVE_FILE
+mv "%s" "%s"
+=zte_httpShare_move cmd=%s
+=zte_httpShare_move  ret =%d
+src_path_SD_CARD
+HTTP_SHARE_COPY_FILE
+=zte_httpShare_copy size of file_path= %d, strlen(dest_dir)=%d
+=zte_httpShare_copy size of dest_path =%d
+=zte_httpShare_copy ptr =%s
+%s%s
+=zte_copy_file  dest_tmp =%s
+_copy
+cp -a "%s" "%s"
+cp "%s" "%s"
+=zte_copy_file  cmd =%s
+=zte_copy_file  ret =%d
+zte_httpShare_password: wp is null.
+old_password
+new_password
+web para:[old_httpshare_password] is [%s].
+web para:[new_httpshare_password] is [%s].
+httpshare_password
+zte_httpShare_password: read the nv [httpshare_password] fail.
+zte_httpShare_password: [httpshare_password] is [%s].
+zte_httpShare_password:pass match.
+zte_httpShare_password: write the nv [httpshare_password] fail.
+zte_httpShare_password:pass not match.
+zte_httpShare_timeout_check: the httpshare is: %s is timeout .
+zte_httpShare_timeout_set no ip
+zte_httpShare_timeout_set not find ip [%s] in pw list
+{"result":"%s", "ip":"%s", "lefttime":"%d"}
+httpshare_record%d
+%s,%s
+zte_httpShare_login_check: ip_address not find in the login list, index_find nv is null  =%d.
+httpshare_save_flag
+zte_httpShare_login: ip_address is null.
+zte_httpShare_login: record malloc faill.
+zte_httpShare_login: ufi to login.
+zte_httpShare_login: wp is null.
+zte_httpShare_login: error pass.
+zte_httpShare_login_check: wp is null.
+zte_httpShare_login_check: ip_address is null.
+zte_httpShare_login_check: ip [%s] not find in the login list.
+zte_httpShare_login_check: ip [%s] find in the login list.
+{"result":"%s", "ip":"%s", "password":"%s","time_state":"%d"}
+creat user node fail
+creat new user node
+creat new user node faile
+malloc cgi buff fail
+malloc failed
+rand_num=%d
+not find .
+[zte_httpshare_os_check]user_agent is NULL
+user_agent=%s
+iPhone
+iphone
+iPad
+ipad
+like Mac OS
+like Mac os
+like mac os
+ text is null
+path_SD_CARD_time
+ UnixYMDTime is %s
+filename=
+image
+upload file [%s]  is already exist
+file name   is %s
+full path  is %s
+file head is null
+file tail is null
+tail is %s
+found file tail
+file_tail not found
+zte write file open [%s] file failed,test =%d
+zte write file close file failed
+ZTE_CGI_PARSE_FINDE_TAIL_IN_FILE
+it is a null file
+file_tail-file_head = %d < 0
+some erro happened
+path file name is = %s, len is %d
+ret is %d
+ file is not exsit
+the file size shoud is %d,  actul is %d
+file transfer failed
+release memory
+zwt remove find node
+zte_process_cgi_begin write failed
+========= file too larg
+zte upload to fild head
+zte_process_cgi_end path =%s
+space_not_enough
+data_lost
+dlna_scan_state
+zte_httpshare check dir path null
+zte_httpshare:failed to create db dir.
+CREATE TABLE IF NOT EXISTS httpshare(id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,                                                                      ip TEXT,path TEXT)
+zte_httpshare:create httpshare table result is %d
+/sys/class/android_usb/android0/tcard
+/media/card
+rm -rf /media/card
+umount /dev/mmcblk0p1
+/usr
+/usr/zte
+/usr/zte/zte_conf/zte_db/httpshare_db
+/mmc2/..
+ yuanjf---testInlegal!
+<script>
+</script>
+OLD_NAME_SD_CARD
+NEW_NAME_SD_CARD
+old name  %s, new name  %s
+rename fail fd=%d
+=zte_httpShare_auth_set path %s inlegal
+=zte_httpShare_auth_set rw_auth is %s
+file_name is %s,STATUS is %s
+indexPage
+=zte_httpShare_enterFold path %s inlegal
+=zte_httpShare_enterFold path inexist
+multi del abusolute path malloc fail
+multi del name  malloc fail
+check del path is legal or not %s
+ del file fail
+name_SD_CARD
+=httpshare dele = path = %s
+=httpshare dele = path1 = %s
+HTTP/1.1 200 OK
+Server: GoAhead-Webs
+Cache-Control: no-store
+Pragma: no-cache
+Content-Type: text/html
+<html>
+<body>%s</body>
+</html>
+wa_inner_version
+../zte_web/zte_web_upgrade.c
+nv [wa_inner_version] read error
+NULL
+info = NULL
+current_version:
+get ZTE_CFG_VERSION_ID error
+hardware_version is %s
+get Integry version failed
+get outer version failed
+info is null.
+WEB_MF823V0.0.0B02
+info =%s
+get modem type failed
+MF823
+ver_info=%s
+imei
+nv [imei] read fail
+upgrade imei is null
+111111111111111
+upgrade imei = %s
+upgrade imei after info= %s
+sim_imsi
+nv [sim_imsi] read fail
+upgrade imsi = %s
+upgrade imsi after info= %s
+command
+command=%s
+get_current_version
+feed_info=%s
+get ZTE_CFG_VERSION_ID fail.
+modem_model is [%s]
+../zte_web/zte_web_pbm.c
+zte_web_pbm->zte_web_pbm_contact_del_all(): invalid input..
+del_all_location
+pbm_write_flag
+success
+zte_web_pbm->zte_web_pbm_contact_del_by_group(): invalid input..
+del_group
+pbm:group is empty.
+failure
+pbm_group
+write the nv [pbm_group] failure.
+<?xml version="1.0" encoding="utf-8"?>
+<%s>empty</%s>
+pbm_data
+{"%s":[]}
+zte_web_pbm->zte_web_pbm_contact_del_part(): invalid input..
+delete_id
+zte_web_pbm->zte_web_pbm_contact_del_part():split_index=[%d]
+zte_web_pbm->zte_web_pbm_contact_saveto_sim().
+zte_web_pbm->zte_goform_pbm_contact_add_process(): invalid input..
+name
+mobilephone_num
+Get Data is no Safe:pbm_name:%s
+edit_index
+homephone_num
+officephone_num
+email
+nick_name
+zte_web_pbm->zte_web_pbm_contact_saveto_pc().
+zte_web_pbm->zte_web_pbm_contact_saveto_pc(): invalid input..
+add_index_pc
+groupchoose
+location
+zte_web_pbm->zte_goform_pbm_contact_add_process():unknown pbm mem.
+del_option
+delete_num
+delete_all
+delete_all_by_group
+zte_web_pbm->zte_goform_pbm_contact_del_process():unknown pbm del.
+page
+data_per_page
+mem_store
+zte_get_pbm_data: invalid web para.
+pbm_query_req:[%u,%u,%d].
+malloc pbm result mem fail.
+call zte_libpbm_get_rec_data fail.
+total query count [%u].
+pbm:total_pages,leave_nums:[%d][%d]
+read pbm page [%d] fail.
+pbm:total query count [%u].
+pbm_location
+pbm_location is empty.
+pbm_location is [%s].
+pbm_native
+pbm_sim
+invalid pbm_location[%s].
+call zte_libpbm_get_capability fail.
+pbm_dev_max_record_num
+pbm_dev_used_record_num
+pbm_sim_type
+pbm_sim_max_record_num
+pbm_sim_used_record_num
+pbm_sim_max_name_len
+pbm_sim_max_number_len
+pbm_sim_max_anr_len
+pbm_sim_max_anr1_len
+pbm_sim_max_email_len
+pbm_sim_max_sne_len
+../zte_web/zte_web_sms.c
+in sms_util_asc_to_hex
+leave sms_util_asc_to_hex
+<?xml version="1.0" encoding="utf-8"?>
+<%s>empty</%s>
+messages
+{"%s":[]}
+parseStrBySemicolon: param is null!
+MessageCenter
+save_location
+save_time
+status_save
+failure
+web para:[MessageCenter] is [%s].
+web para:[mem_store] is [%s].
+web para:[validity_period] is [%s].
+web para:[status_report] is [%s].
+native
+sim_card
+zte_sms_set_message_center: invalid mem_store.
+twelve_hours
+one_day
+one_week
+largest
+cdma_largest
+zte_sms_set_message_center: invalid validity_period.
+zte_sms_set_message_center:The center number is:[%s].
+zte_sms_set_message_center: send msg to mc success.
+success
+zte_sms_set_message_center: send msg to mc fail.
+msg_id
+web para:[msg_id] is [%s].
+zte_sms_delete_msg_process:del_sms_setting.all_or_count is [%lu]
+zte_sms_delete_msg_process:delete msg number:[%lu]
+zte_sms_delete_msg_process:send delete sms cmd to mc success.
+zte_sms_delete_msg_process:send delete sms cmd to mc fail.
+location
+tags
+SMSMessage
+SMSNumber
+Index
+encode_type
+sms_time
+draft_group_id
+web para:[tags] is [%s].
+web para:[SMSNumber] is [%s].
+web para:[sms_encode_type] is [%s].
+web para:[sms_time] is [%s].
+web para:[draft_group_id] is [%s].
+Get Data is no Safe:msg_content_web:%s
+ASCII
+UNICODE
+GSM7_span
+GSM7_default
+GSM7_turkey
+GSM7_portuguese
+invalid sms_encode_type [%s]!
+zte_sms_save_msg_process:year is [%s];month is [%s];day is [%s];hour is [%s];minute is [%s];second is [%s];timezone is [%s].
+invalid msg_id [%s]!
+MSG_SAVE_ST.dest_num = [%s]
+web_sms:message_content_len = [%d]
+web_sms:MSG_SAVE_ST content=[%x]
+web_sms:Send message to mc successful!(save msg)
+web_sms:Send message to mc fail!(save msg)
+Number
+MessageBody
+save_flag
+web para:[Number] is [%s].
+web para:[ID] is [%s].
+web para:[encode_type] is [%s].
+zte_sms_send_msg_process:year is [%s];month is [%s];day is [%s];hour is [%s];minute is [%s];second is [%s];timezone is [%s].
+zte_sms_send_msg_process:receiver number is [%s]
+zte_sms_send_msg_process:message_content_len is [%d]
+zte_sms_send_msg_process:msg content is[%x]
+zte_sms_send_msg_process:Send message to mc successful!
+zte_sms_send_msg_process:Send message to mc fail!
+web_sms:Send message to mc successful!(view message)
+web_sms:Send message to mc fail!(view message)
+sms_valid_origaddr
+[info] web_sms: smsRecvPhone=[%s].
+page
+data_per_page
+mem_store
+order_by
+zte_get_sms_data: invalid input.
+sms_query_req:[%u,%u,%u,%u,%s].
+to get 0 sms record.
+malloc sms result mem fail.
+call zte_wms_db_get_sms_data fail.
+total query count [%u].
+total_pages,leave_nums:[%d][%d]
+read sms page [%d] fail.
+call zte_libwms_get_parameter fail.
+sms_cmd
+sms_cmd is empty.
+call zte_libwms_get_cmd_status fail.
+sms_cmd_status_result
+sms_nv_total
+sms_sim_total
+sms_nv_rev_total
+sms_nv_send_total
+sms_nv_draftbox_total
+sms_sim_rev_total
+sms_sim_send_total
+sms_sim_draftbox_total
+sms_query_req:[%u,%u].
+call zte_libwms_get_sms_report fail.
+total query count for status rpt: [%u].
+sms_unread_num
+sms_dev_unread_num
+sms_sim_unread_num
+"%s":"%d","%s":"%d","%s":"%d"
+sms_not_receive
+[info] zte_sms_setting_new: sms_flag=[%s].
+../zte_web/zte_web_ussd.c
+zte_web_ussd: invalid input..
+zte_web_ussd: ok
+ussd_write_flag
+success
+zte_web_ussd-> invalid input..
+USSD_operator
+ussd_operator is [%s].
+ussd_send
+USSD_send_number
+ussd_send_number is [%s].
+ussd number is empty.
+failure
+ussd_data is [%s].
+ussd_cancel
+ussd_reply
+USSD_reply_number
+ussd
+ussd_over
+invalid ussd_operator[%s].
+call zte_libussd_get_to_web_data fail.
+{"%s":"%d","%s":"%d","%s":"%s"}
+ussd_action
+ussd_dcs
+ussd_data
+dlna_language
+dlna_name
+dlna_share_audio
+dlna_share_video
+dlna_share_image
+../zte_web/zte_dlna.c
+[dlna]invalid web para.
+failure
+[dlna]:web para[%s,%s,%s,%s,%s].
+[dlna]:settings has not changed.
+success
+dlna_rescan_end
+[dlna] call zms_client_set_serv fail.
+[dlna] call zms_client_set_serv success.
+[dlna] call zms_client_rescan_serv fail.
+[dlna] call zms_client_rescan_serv success.
+goformId
+action_process
+../zte_web/zte_web_rest.c
+websWifiMonitorHandler goformid:%s
+websWifiMonitorHandler action :%s
+websWifiMonitorHandler get action end
+websWifiMonitorHandler set action end
+websWifiMonitorHandler can not find action
+Wifi Monitor operation failed.
+zte_change_wp_query_new action_tag is null
+action_tag is NULL!
+zte_change_wp_query_new name:%s
+zte_change_wp_query_new action_tag->txt:%s
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+<result>%s</result>
+</data>
+<%s>%s</%s>
+"%s":"%s",
+"%s":"%s"
+<%s>%d</%s>
+"%s":"%d",
+"%s":"%d"
+{"%s":[
+pbm_data
+<%s>
+pbm_id
+pbm_index
+pbm_location
+pbm_name
+pbm_number
+pbm_type
+pbm_anr
+pbm_anr1
+pbm_email
+pbm_sne
+pbm_group
+</%s>
+{"%s":"%d","%s":"%d","%s":"%d","%s":"%s","%s":"%s","%s":"%d","%s":"%s","%s":"%s","%s":"%s","%s":"%s","%s":"%s"}
+messages
+pbm_num=%s
+pbm_name=%s
+number=%s
+number
+name
+content
+<%s>%s,%s,%s,%s,%s,%s,%s</%s>
+date
+draft_group_id
+received_all_concat_sms
+concat_sms_total
+concat_sms_received
+sms_class
+{"%s":"%s","%s":"%s","%s":"%s","%s":"%s","%s":"%s,%s,%s,%s,%s,%s,%s","%s":"%s","%s":"%s","%s":"%s","%s":"%s","%s":"%s"}
+tmp_num=%s
+{"%s":"%s","%s":"%s","%s":"%s","%s":"%s","%s":"%s,%s,%s,%s,%s,%s,%s","%s":"%s"}
+sms_para_sca
+sms_para_mem_store
+<%s>%u</%s>
+sms_para_validity_period
+sms_para_status_report
+{"%s":"%s","%s":"%d","%s":"%u","%s":"%u"}
+{"%s":"%s","%s":"%s","%s":"%s","%s":"%s,%s,%s,%s,%s,%s,%s"}
+UpgMode
+UpgIntervalDay
+UpgRoamPermission
+../zte_web/zte_web_fota_update.c
+polling para:mode[%s],interval day[%s],roam opt[%s].
+failure
+dm_update_mode
+dm_update_interval_day
+dm_update_roam_permission
+success
+ota_pkg_total_size
+ota_download_pkg_size
+{"%s":"%s","%s":"%s"}
+pack_total_size
+download_size
+ota_new_version_state
+read nv [%s] fail.
+{"%s":"%s"}
+new_version_state
+"%s":"%s"
+ota_current_upgrade_state
+current_upgrade_state
+fota_upgrade_result
+upgrade_result
+ota_user_select
+none
+if_has_select
+ota_version
+{"%s":"%s","%s":"%s","%s":"%s","%s":"%s"}
+filesname
+size
+description
+version
+{"%s":"%s","%s":"%s","%s":"%s"}
+"%s":"%s","%s":"%s","%s":"%s"
+upg_roam_switch
+get ZTE_CFG_9X15_APPS_OTA_SWITCH_ID error
+get ZTE_CFG_9X15_APPS_OTA_SWITCH_ID is:[%d]
+select_op
+ota_manual_check_roam_state
+FOTA upgrade action[%s].
+this is FOTA upgrade.
+accept
+send confirm dowanload msg to fota.
+send confirm download msg to fota fail.
+cancel
+send cancel dowanload msg to fota.
+send cancel download msg to fota fail.
+check
+send manual upgrade msg to fota.
+send manual upgrade msg to fota fail.
+unknown fota action [%s].
+this is OTA upgrade.
+invalid uprade type [%d].
+action
+zte_fota_dm_action_set : %s.
+confirminstall
+cancelinstall
+send confirminstall msg to fota dm
+send confirminstall msg to fota dm fail.
+send confirminstall msg to fota dm success.
+send cancelinstall msg to fota dm
+send cancelinstall msg to fota dm fail.
+send cancelinstall msg to fota dm success.
+zte_update_profile_set : %s.
+update_profile
+cancel_update
+update_success
+update_fail
+noProfile_update
+unknown zte_update_profile_set action [%s].
+send update_profile msg to fota dm
+send update_profile msg to fota dm fail.
+send update_profile msg to fota dm success.
+send cancel_update msg to fota dm
+send cancel_update msg to fota dm fail.
+send cancel_update msg to fota dm success.
+send update_success msg to fota dm
+send update_success msg to fota dm fail.
+send update_success msg to fota dm success.
+send update_fail msg to fota dm
+send update_fail msg to fota dm fail.
+send update_fail msg to fota dm success.
+send noProfile_update msg to fota dm
+send noProfile_update msg to fota dm fail.
+send noProfile_update msg to fota dm success.
+zte_update_PRL_set : %s.
+update_PRL
+noPrl_update
+unknown zte_update_PRL_set action [%s].
+send update_PRL msg to fota dm
+send update_PRL msg to fota dm fail.
+send update_PRL msg to fota dm success.
+send noPrl_update msg to fota dm
+send noPrl_update msg to fota dm fail.
+send noPrl_update msg to fota dm success.
+zte_check_update_set : %s.
+check_update
+postpone
+retray
+noFirmware_update
+confirm_install
+cancel_install
+unknown zte_check_update_set action [%s].
+send check_update msg to fota dm
+send check_update msg to fota dm fail.
+send check_update msg to fota dm success.
+postpone_time
+send postpone msg to fota dm. postpone_time:%s
+3600
+14400
+send postpone msg to fota dm fail.
+send postpone msg to fota dm success.
+send retray msg to fota dm
+send retray msg to fota dm fail.
+send retray msg to fota dm success.
+send noFirmware_update msg to fota dm
+send noFirmware_update msg to fota dm fail.
+send noFirmware_update msg to fota dm success.
+send confirm_install msg to fota dm
+send confirm_install msg to fota dm fail.
+send confirm_install msg to fota dm success.
+send cancel_install msg to fota dm
+send cancel_install msg to fota dm fail.
+send cancel_install msg to fota dm success.
+cancel_Cidc
+ok_Cidc
+ok_NoPrl
+cancel_CiPrl
+ok_CiPrl
+cancel_CiFumo
+ok_NoFirmware
+cancel_Retry
+RetryTimeOut
+ContinueTimeOut
+send DM_HfaContinueTimeOut msg to fota dm fail.
+send DM_HfaContinueTimeOut msg to fota dm success.
+ok_RetryFail
+ok_NetworkErr
+ok_Err67
+get_contents
+/usr/dm/dmc_pkgdescript.dat
+dm_notification_state
+screen_closehandle: write the nv [screen_closehandle] failure.
+fail
+defaultValue
+error
+../REST/zte_rest_util.c
+zte_rest_create_child_node_value:input is null pointer
+zte_rest_create_child_node_value: add child failed
+zte_rest_write_err_code:input is null pointer
+Error
+ErrorCode
+zte_rest_write_err_code:add child failed
+websRestPostHandler: input null.
+websRestPostHandler:input is NULL
+malloc rest data buff fail.
+Can't get memory
+call ezxml_parse_str failed.
+not exist module node.
+module: [%s]
+handleTableSize = [%d]
+zte_rest_handle_request return NULL.
+REST operation failed.
+HTTP/1.1 200 OK
+Server: %s
+GoAhead
+Cache-Control: no-store
+Pragma: no-cache
+Content-Type: text/xml
+<?xml version="%s" encoding="utf-8"?>
+call ezxml_toxml fail.
+module is outer
+DataRoot
+zte_rest_create_child_node_integer_value:input is null pointer
+zte_rest_create_child_node_integer_value: add child failed
+zte_rest_create_level_node_3:input is null.
+zte_rest_create_level_node_4:input is null.
+src is null.
+malloc asc_buf fail.
+call zte_rest_util_asc_to_hex failed.
+malloc utf8_buf fail.
+malloc hex_buf fail.
+loginfo
+zte_rest_login_timeout_check: read the nv [loginfo] fail.
+user_login_timemark
+read the nv [user_login_timemark] fail.
+zte_rest_login_timeout_check: the login is timeout .
+user_ip_addr
+timeout
+write the nv [user_login_timemark] fail.
+read the nv [loginfo] fail.
+read the nv [user_ip_addr] fail.
+Dial
+Device
+Wlan
+Polling
+../REST/zte_rest_network.c
+zte_rest_networks_handler:request_xml is null.
+unsupportted operation [%s].
+zte_rest_networks_handler:not find the operation cmd node.
+ppp_connecting
+ppp_disconnecting
+ppp_disconnected
+ppp_connected
+ppp_status
+ipv6_connected
+ipv4_ipv6_connected
+../REST/zte_rest_device.c
+invalid ppp_status:[%s]
+1001
+zte_rest_device_handler:request_xml is null.
+Select
+ResetDataCounters
+Connect
+Disconnect
+SetMaxTrafficPerMonth
+can not parse MaxTrafficPerMonth node.
+MaxTrafficPerMonth
+max_traffic_per_month
+DataRoot
+incorrect node info for MaxTrafficPerMonth.
+create root node failure.
+Device
+Response
+total_tx_bytes
+total_rx_bytes
+total_time
+realtime_tx_bytes
+realtime_rx_bytes
+realtime_time
+realtime_tx_thrpt
+realtime_rx_thrpt
+PPPState
+dial_mode
+auto_dial
+zte_rest_dial_connect: send msg for dial to mc success.
+zte_rest_dial_connect: send msg for dial to mc fail.
+manual_dial
+Unknown ppp status [%s].
+zte_rest_dial_disconnect: send msg for end dial to mc success.
+zte_rest_dial_disconnect: send msg for end dial to mc fail.
+Logout
+user_ip_addr
+loginfo
+user_login_timemark
+Login
+can not parse Password node.
+Password
+admin_Password
+read [admin_Password] fail
+password not matched.
+call zte_mgmt_login_timemark_set fail.
+incorrect node info for Password.
+Loginfo
+unsupportted operation [%s].
+zte_rest_device_handler:not find the operation cmd node.
+Small
+Medium
+Large
+../REST/zte_rest_wifi.c
+src is null.
+short_mode
+medium_mode
+long_mode
+1001
+zte_rest_wlan_handler:request_xml is null.
+Select
+SetWlanCoverage
+wifi_coverage
+DataRoot
+create root node failure.
+Wlan
+Response
+WIFICoverage
+can not parse WIFICoverage node.
+read nv [%s] fail.
+write nv [%s] fail.
+wifi_set_flags
+send msg for set wifi coverage to mc success.
+incorrect node info for WIFICoverage.
+unsupportted operation [%s].
+zte_rest_wlan_handler:not find the operation cmd node.
+read
+unread
+../REST/zte_rest_sms.c
+cmd_node is null.
+StorePlace
+Folder
+PageNumber
+NumberOfMessgesPerPage
+invalid attr for node[%s].
+SMS Select node info:[%s,%s,%s,%s]
+Device
+Inbox
+Sent
+Drafts
+unvalid sms_location[%s],sms_box[%s].
+order by id desc
+malloc sms result mem fail.
+call zte_libwms_get_sms_data fail.
+total query count [%u].
+DataRoot
+create root node failure.
+Response
+Page
+SMS: date:[%s]
+SMS: tag:[%s]
+SmsMessage
+Status
+Content
+Name
+Phone
+Date
+1001
+id is NULL.
+zte_mark_sms_as_read send  message successful!
+zte_mark_sms_as_read send message fail!
+Fail
+Processing
+Success
+call zte_libwms_get_cmd_status fail.
+sms cmd status:[%d].
+zte_rest_sms_handler:request_xml is null.
+QuerySmsInfo
+Count
+MarkAsRead
+SmsInitInfo
+StorageCapacity
+DeviceStorageCapacityTotal
+DeviceStorageCapacityUsed
+SIMStorageCapacityTotal
+SIMStorageCapacityUsed
+FolderCount
+unvalid sms_location[%s],sms_box[%s]
+can not parse SmsMessage node.
+unsupportted operation [%s].
+zte_rest_sms_handler:not find the operation cmd node.
+Processing
+Success
+Fail
+../REST/zte_rest_pbm.c
+zte_rest_pbm_handler:request_xml is null.
+QueryPbmInfo
+Count
+Page
+pbm_init_flag
+pbm_init_info:[%s].
+DataRoot
+create root node failure.
+Response
+PbmInitInfo
+call zte_libpbm_get_capability (device) fail.
+call zte_libpbm_get_capability (sim) fail.
+StorageCapacity
+DeviceStorageCapacityTotal
+DeviceStorageCapacityUsed
+SIMStorageCapacityTotal
+SIMStorageCapacityUsed
+StorePlace
+PageNumber
+NumberOfMessgesPerPage
+invalid attr for node[%s].
+PBM Select node info:[%s,%s,%s]
+Device
+unvalid pbm_location[%s].
+malloc pbm result mem fail.
+call zte_libpbm_get_rec_data fail.
+total query count [%u].
+PbmMessage
+pbm name is [%s]
+Name
+Phone
+unsupportted operation [%s].
+zte_rest_pbm_handler:not find the operation cmd node.
+ps_phone is null.
+ps_name is null.
+call zte_libpbm_get_name_by_number fail.
+Wlan
+wifi_coverage
+WIFICoverage
+station_num
+StationNum
+station_mac
+MacList
+MacAddress
+True
+False
+../REST/zte_rest_polling.c
+zte_rest_polling_handler:request_xml is null.
+Select
+DataRoot
+create root node failure.
+Polling
+Response
+monthly_tx_bytes
+monthly_rx_bytes
+realtime_tx_thrpt
+realtime_rx_thrpt
+total_time
+realtime_time
+Transfer
+DownloadBytesPerMonth
+UploadBytesPerMonth
+DataTransferRateDownloadBytesPerSecond
+DataTransferRateUploadBytesPerSecond
+CurrentConnectTime
+TotalConnectTime
+Network
+create Network node fail.
+NetworkAccessMode
+WWAN
+network_provider_fullname
+OperatorFullName
+network_provider
+OperatorShortName
+hplmn
+PLMN
+network_type
+LIMITED_SERVICE
+Limited Service
+NO_SERVICE
+No Service
+NetworkType
+lac_code
+cell_id
+CellID
+domain_stat
+DomainState
+simcard_roam
+Internal
+International
+Roaming
+signalbar
+SignalBar
+Connection
+PPPState
+battery_charging
+battery_pers
+unknown nv [%s]:[%s].
+DeviceInfo
+BatteryBar
+battery_value
+BatteryPercent
+SMSUnreadCount
+loginfo
+ read the nv [loginfo] fail.
+user_ip_addr
+read nv[user_ip_addr] fail.
+user [%s] logged in.
+user [%s] not login or timeout or duplicate.
+Login
+LoginStatus
+unsupportted operation [%s].
+zte_rest_polling_handler:not find the operation cmd node.
+../vdf_custom/zte_vdf_web_util.c
+zte_get_cmd_handler -> cmd:[%s].
+[ERROR]zte_get_cmd_handler -> unknown cmd name:[%s].
+total_tx_bytes
+total_rx_bytes
+total_time
+realtime_tx_bytes
+realtime_rx_bytes
+realtime_time
+APN_config1
+{"strAPN":"%s","strNumber":"%s","strDNS":"%s","strDNS2":"%s","strSecurity":"%s","strUsername":"%s","strPassword":"%s"}
+../vdf_custom/zte_vdf_wan.c
+wp is null.
+custom_account_type
+unknown wan cmd:[%s].
+AccountType
+web para:[AccountType] is [%s].
+zte_wan_set_account_type: [account_type] is empty.
+failure
+account_type
+success
+zte_wan_set_account_type: write nv [account_type] fail.
+reset_wan_statistics_option
+total
+current
+realtime_tx_thrpt
+realtime_rx_thrpt
+invalid option[%s].
+send reset wan data to mc success.
+send reset wan data to mc fail.
+../vdf_custom/zte_vdf_management.c
+[UPLOAD_CGI_FILE]:buf is null.
+banner_settings
+read the nv [banner_settings] fail.
+can not get ip addr.
+can not get mac addr.
+call zte_get_mac_from_ip fail.
+%s,%s;
+write nv[banner_settings] fail.
+mac num:[%u].
+mac num:[%u] more than[%d].
+not find the separator[,].
+bad banner format.
+call zte_update_banner_settings fail.
+mac_addr: [%s],banner_set:[%s].
+zte_mgmt_save_phone_num: wp is null.
+Phone_Num
+web para:[Phone_Num] is [%s].
+zte_mgmt_save_phone_num: web para [Phone_Num] is empty.
+failure
+msisdn_write_flag
+zte_mgmt_save_phone_num: write nv [msisdn_write_flag] fail.
+zte_mgmt_save_phone_num: [msisdn_write_flag] is [%s].
+success
+zte_mgmt_set_web_data: wp is null.
+web_data
+web para:[web_data] is [%s].
+zte_mgmt_set_web_data: write the nv [web_data] fail.
+zte_mgmt_guest_user_control: wp is null.
+allowedToConnect
+allowedToAccessSettings
+web para:[allowedToConnect] is [%s].
+web para:[allowedToAccessSettings] is [%s].
+web para is empty.
+allow_to_connect
+zte_mgmt_guest_user_control: write nv [allow_to_connect] fail.
+allow_to_access_set
+zte_mgmt_guest_user_control: write nv [allow_to_access_set] fail.
+zte_mgmt_set_banner: wp is null.
+banner_set
+banner_set is empty.
+call zte_handle_banner_settings fail.
+wp is null.
+pin_manage_at_wait
+generate backup file ok.
+/usr/zte_web/web/backup.data
+generate backup file fail.
+file [%s] not exist.
+malloc buf fail.
+open file [%s] fail.
+HTTP/1.0 200 OK
+Server: %s
+WebServer-Webs
+Content-type: application/octet-stream
+Content-Disposition: attachment; filename=router_backup.bak
+restore file ok.
+restore file fail.
+/var/back_parameter
+[UPLOAD_CGI_FILE]:alloc buf fail.
+[UPLOAD_CGI_FILE]:malloc memory fail.
+[UPLOAD_CGI_FILE]:alloc buf success.
+[UPLOAD_CGI_FILE]:malloc memory success.
+ [UPLOAD_CGI_FILE]:cgi start state[%d].
+ [UPLOAD_CGI_FILE]:cgi end state[%d].
+ [UPLOAD_CGI_FILE]:result2 is[%d].
+[UPLOAD_CGI_FILE]:begin to handle the tail.
+[UPLOAD_CGI_FILE]:find the tail bound.
+ [UPLOAD_CGI_FILE]:result3 is[%d].
+[UPLOAD_CGI_FILE]:not find the tail bound.
+ [UPLOAD_CGI_FILE]:result4 is[%d].
+ [UPLOAD_CGI_FILE]:g_zte_cgi_buf_length is[%d].
+../vdf_custom/zte_vdf_lan.c
+mac rule list is empty
+invalid input para.
+call zte_parse_mac_from_mac_rule fail.
+parse white mac lists fail.
+parse black mac lists fail.
+wifi_mac_white_list
+wifi_mac_black_list
+/usr/zte_web/web/macWhiteList.txt
+/usr/zte_web/web/macBlackList.txt
+open file fail.
+wifi_set_flags
+wifiEnabled
+failure
+wifiMode
+countryCode
+broadcastSsidEnabled
+selectedChannel
+Channel
+old_channel=%s, nv_ret=%d
+channel:%s
+wifi_band
+old_wifi_band=%s, nv_ret=%d
+wifi_band:%s
+abg_rate
+HT_MCS
+old_abg_rate=%s, nv_ret=%d
+abg_rate:%s
+MAX_Access_num
+m_ssid_enable
+wifi_11n_cap
+old_wifi_11n_cap=%s, nv_ret=%d
+wifi_11n_cap:%s
+doubleTapEnabled
+is_show_ssid_key_oled
+write nv [%s] fail.
+wifi_set_flags:[%x] to [%s].
+wifi set cmd done!
+success
+unvalid mac_list_file_type [%d].
+file [%s] not exist.
+the file is empty.
+malloc buf fail.
+open file [%s] fail.
+buf is null.
+macFilteringMode
+zte_lan_set_mac_filter:invalid input para.
+invalid value of mac_filter_mode [%s].
+ACL_mode
+white_list
+black_list
+call zte_lan_util_set_mac_list fail.
+wifi acl set:send msg to mc success.
+"%s":"
+mac_filter_white_list
+mac_filter_black_list
+login.asp
+index.html
+sd_share_file_xml.html
+no_sdcard.html
+mobile.html
+/m/index.html
+/m/login.html
+.htm
+GoAhead
+SET_WEB_LANGUAGE
+LOGIN
+LOGOUT
+REDIRECT_REDIRECT_OFF
+ENTER_PIN
+ENTER_PUK
+SET_DEVICE_MODE
+HTTPSHARE_ENTERFOLD
+HTTPSHARE_NEW
+HTTPSHARE_DEL
+HTTPSHARE_FILE_RENAME
+GOFORM_HTTPSHARE_CHECK_FILE
+ONLINE_UPGRADE_TOOL
+SET_TINYPROXY_SERVER_CONFIG
+get_loginfo
+station_list
+station_list_add_ssid
+simcard_status
+current_network
+ConnectionMode
+vdf_configuration
+router_diagnostics
+wifi_settings
+login_status
+battery_status
+device_diagnostics
+network_location
+memory_total
+memory_free
+lifetime
+usb_info
+dm_activated_time
+usb_ip_addr
+HTTPSHARE_AUTH_GET
+HTTPSHARE_GETCARD_NAME
+HTTPSHARE_GETCARD_VALUE
+HTTPSHARE_TIME_STATE
+client_ip_address
+hostNameList
+hostNameList2
+hostNameList3
+hostNameList4
+sms_page_data
+sms_data_total
+sms_parameter_info
+sms_cmd_status_info
+sms_capacity_info
+sms_status_rpt_data
+getddns_status
+pbm_data_info
+pbm_data_total
+pbm_capacity_info
+ussd_data_info
+get_device_mode
+get_user_mac_addr
+pack_size_info
+new_version_state
+current_upgrade_state
+upgrade_result
+if_has_select
+update_info
+GetUpgAutoSetting
+upg_roam_switch
+battery_value
+LOGIN
+CHANGE_PASSWORD
+SET_SHOW_WEB_PWD
+SET_WEB_LANGUAGE
+SET_NV
+LOGOUT
+QUICK_SETUP
+QUICK_SETUP_EX
+UNLOCK_NETWORK
+SET_REMIND_FLAG
+SET_MATCHED_LANGUAGE_FLAG
+MGMT_CONTROL_POWER_ON_SPEED
+LOG_CONTROL
+SNTP_SWITCH
+SNTP_TIME_SET
+SYSLOG_LOGIN
+SPEED_RESTRICTION_REDIRECT_SET
+SPEED_RESTRICTION_STATE_SET
+LIMIT_SPEED_REDIRECT_URL_CLEAR
+NITZ_SWITCH
+CHANGE_DEFAULT_PASSWORD_REMIND
+SET_TINYPROXY_SERVER_CONFIG
+SHUTDOWN_DEVICE
+WPS_DISPLAY_SWITCH
+SET_NETWORK
+SET_CONNECTION_MODE
+CONNECT_NETWORK
+DISCONNECT_NETWORK
+DISCONNECT_NETWORK_AUTO
+SCAN_NETWORK
+SET_BEARER_PREFERENCE
+SET_NET_SELECT_TO_AUTO
+SET_IDLE_TIME
+ROAM_SETTING
+AP_STATION_MODE_SETTING
+SET_NET_SELECT_MODE
+DATA_LIMIT_SETTING
+SET_LTE_BAND_LOCK
+SET_NETWORK_BAND_LOCK
+IMSI_MODE_SETTING
+SET_LIMIT_MAINTENANCE
+SET_DATA_USAGE
+SET_TMP_CTRL
+FLOW_CALIBRATION_MANUAL
+DAIL228_SETTING
+Dial228_USER_CHOSE_YES
+ALLOW_MOBILE_DATA
+ENTER_PIN
+DISABLE_PIN
+ENABLE_PIN
+ENTER_PUK
+SET_WIFI_INFO
+SET_WIFI_BAND
+SET_AUTO_POWER_SAVE
+SET_WIFI_SECURITY_INFO
+WIFI_MAC_FILTER
+WIFI_MAC_FILTER_VDF
+WIFI_WPS_SET
+WIFI_STA_WPS_PIN_GET
+WIFI_STA_WPS_SET
+SET_WIFI_M_SECURITY_INFO
+WLAN_SET_STA_REFRESH
+WLAN_SET_STA_CON
+WLAN_SET_STA_DISCON
+WLAN_APSTA_SET
+SET_WIFI_SLEEP_INFO
+SET_WIFI_WISPR_INFO
+WIFI_SPOT_PROFILE_UPDATE
+SET_WIFI_SSID1_SETTINGS
+SET_WIFI_SSID2_SETTINGS
+WIFI_STA_CONNECTION
+WIFI_STA_CONTROL
+SET_WIFI_MULTI_BAND_SETTINGS
+SET_WIFI_MAX_ACCESS_NUM
+WIFI_BAND_SWITCH
+SET_M_WIFI_INFO
+SET_WIFI_COVERAGE
+SET_DISPLAY_INFO
+EAPSIM_TIMEOUT_SET
+EAPSIM_PSE_ID_DEL
+EAPSIM_ID_REFRESH
+ALERT_WIFI_DFS_SET
+ADD_IP_PORT_FILETER
+DEL_IP_PORT_FILETER
+VIRTUAL_SERVER
+FW_FORWARD_ADD
+FW_FORWARD_DEL
+ADD_PORT_MAP
+DEL_PORT_MAP
+BASIC_SETTING
+DHCP_SETTING
+UPNP_SETTING
+UPNP_DNS_WIFI_SETTING
+DMZ_SETTING
+SET_DEVICE_MTU
+WIFI_STATIC_IP_SET
+ROUTER_OPMS_SETTING
+OPMS_PPPOE_DIAL
+FW_SYS
+ROUTER_CONTROL_SEC_SSID
+EDIT_HOSTNAME
+REDIRECT_REDIRECT_OFF
+ADD_IP_PORT_FILETER_V4V6
+DEL_IP_PORT_FILETER_V4V6
+DDNS
+HTTPSHARE_ENTERFOLD
+HTTPSHARE_NEW
+HTTPSHARE_DEL
+HTTPSHARE_AUTH_SET
+HTTPSHARE_MODE_SET
+HTTPSHARE_FILE_RENAME
+GOFORM_HTTPSHARE_CHECK_FILE
+HTTPSHARE_CHECKFOLD
+HTTPSHARE_DEL_ALL
+HTTPSHARE_LOGIN
+HTTPSHARE_LOGIN_CHECK
+HTTPSHARE_CHANGE_PASSWORD
+HTTPSHARE_INIT
+PBM_CONTACT_ADD
+PBM_CONTACT_DEL
+SET_MESSAGE_CENTER
+DELETE_SMS
+SAVE_SMS
+SEND_SMS
+SMS_SETTING_NEW
+SET_MSG_READ
+SET_SMS_RECV_PHONE_NUM
+USSD_PROCESS
+RESTORE_FACTORY_SETTINGS
+REBOOT_DEVICE
+SET_DEVICE_MODE
+USB_MODE_SWITCH
+CRASH_MODE_SET
+CLEAR_PROGRAMMING
+SCREEN_LOCK_SET
+SCREEN_SWITCH_SET
+SCREEN_BRIGHTNESS_SET
+UPLOADFILE_RESTORE
+BACKUP_USERSETTINGS
+PARAM_TO_FILE
+APN_PROC
+APN_PROC_EX
+EM_APN_PROC
+NET_APN_PROC
+RESET_DATA_COUNTER
+DATA_USAGE_NOTIFY_RESET
+SET_UPGRADE_NOTICE
+DLNA_SETTINGS
+DLNA_RESCAN
+SET_REDIRECT_URL_INFO
+SET_FOTAAUTOUPDATE
+FOTA_UPDATE
+SET_FOTA_SETTINGS
+SET_FOTA_APN
+FOTA_PROXY_SWITCH
+FOTA_DM_ACTION_SET
+UPDATE_PROFILE_SET
+UPDATE_PRL_SET
+CHECK_UPDATE_SET
+CHECK_UICC_UNLOCK
+UPDATE_HFA
+SET_DM_NOTIFICATION
+IF_UPGRADE
+SetUpgAutoSetting
+FOTA_SERVER_MODE_SELECT
+PMA_TEST_SET
+PMA_TEST_MODE_SET
+ONLINE_UPGRADE_TOOL
+STK_PROCESS
+current_network
+sms_unread_num
+web_version
+modem_model
+manufacturer_name
+client_mac_address
+mac_filter_white_list
+mac_filter_black_list
+system_uptime
+sntp_current_time
+check_web_conflict
+new_version_state
+current_upgrade_state
+upgrade_result
+GetUpgAutoSetting
+upg_roam_switch
+login_lock_time
+wps_start_time
+network_type
+custom_account_type
+gold 1.11
+aeabi
+zte_topsw_goahead
+.shstrtab
+.interp
+.note.ABI-tag
+.dynsym
+.dynstr
+.gnu.hash
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.ARM.extab
+.ARM.exidx
+.eh_frame
+.eh_frame_hdr
+.dynamic
+.data
+.init_array
+.fini_array
+.jcr
+.data.rel.ro.local
+.got
+.bss
+.note.gnu.gold-version
+.ARM.attributes
+.gnu_debuglink
